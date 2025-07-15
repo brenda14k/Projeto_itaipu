@@ -210,11 +210,12 @@
         display: flex;
         gap: 20px;
         flex-wrap: wrap;
-        position: relative;
+      
     }
 
     .competencias .competencia {
         flex: 0 1 32%;
+          position: relative;
     }
 
     .competencias .competencia  img {
