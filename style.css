@@ -226,11 +226,16 @@
   position: relative; /* cria contexto para o texto */
 }
 
-.competencias p {
-    position: absolute; 
-  top: 10px;     
+
+
+.competencia p {
+  position: absolute; /* tira o texto do fluxo normal e coloca sobre a imagem */
+  top: 10px;          /* ajuste a posição conforme quiser */
   left: 10px;
-  color: white;      
-  z-index: 10;   
+  color: white;       /* para aparecer melhor, mude a cor */
+  z-index: 10;        /* garante que fique na frente */
+  background: rgba(0,0,0,0.4); /* opcional: fundo leve para destacar o texto */
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
