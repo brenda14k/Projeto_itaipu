@@ -222,6 +222,10 @@
         border-radius:20px;
     }
 
+.competencia {
+  position: relative; /* cria contexto para o texto */
+}
+
 .competencias p {
     position: absolute; 
   top: 10px;     
