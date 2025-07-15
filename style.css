@@ -223,8 +223,10 @@
     }
 
 .competencias p {
-    position: absolute;
-    color: white;
-    z-index: 1;
+    position: absolute; 
+  top: 10px;     
+  left: 10px;
+  color: white;      
+  z-index: 10;   
 }
 
