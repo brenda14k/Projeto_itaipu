@@ -228,7 +228,7 @@
 .competencia p {
   position: absolute;
   top: 5px;   /* ajuste pra posição */
-  left: 10px;
+  left: 5px;
   color: white;
   z-index: 1;
   margin: 0;
