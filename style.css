@@ -222,8 +222,8 @@
         border-radius:20px;
     }
 
-.competencias .p{
-    position: obsolute;
+.competencias p {
+    position: absolute;
     color: white;
     z-index: 1;
 }
