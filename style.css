@@ -218,4 +218,6 @@
 
     .competencias .competencia  img {
         width: 100%;
+        heigth: 50%;
+        border-radius:20px;
     }
