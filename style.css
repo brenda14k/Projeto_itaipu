@@ -221,3 +221,9 @@
         
         border-radius:20px;
     }
+
+.competencias .p{
+    color: white;
+    z-index: 1;
+}
+
