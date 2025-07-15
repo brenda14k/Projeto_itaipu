@@ -228,7 +228,7 @@
 
 .competencia p {
   position: absolute;
- 
+ /*centralizar para baixo e arrumar a fonte*/
   color: white;
   z-index: 1;
   margin: 0;
