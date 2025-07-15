@@ -227,11 +227,9 @@
 }
 .competencia p {
   position: absolute;
-  top: 45%; /* MUDA aqui para subir o texto */
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 10px;   /* ajuste pra posição */
+  left: 10px;
   color: white;
   z-index: 1;
   margin: 0;
-  font-weight: bold;
 }
