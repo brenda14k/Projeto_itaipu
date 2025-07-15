@@ -226,10 +226,10 @@
   position: relative; /* cria contexto para o texto */
 }
 .competencia p {
-  position: absolute;
-  top: 20px;   /* ajuste pra posição */
-  left: 5px;
+  position: absolute ;
+  top: 80px ;
+  left: 10px;
   color: white;
   z-index: 1;
-  margin: 0;
+  margin: 0 ;
 }
