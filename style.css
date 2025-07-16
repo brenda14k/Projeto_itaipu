@@ -206,14 +206,15 @@
 
     /* COMPETENCIAS */
 
-    .competencias .competencia {
+.competencias .competencia {
   flex: 0 1 32%;
   position: relative;
 }
 
 .competencias .competencia img {
   width: 100%;
-  border-radius:20px;
+  border-radius: 20px;
+  display: block;
 }
 
 .competencias .competencia p {
@@ -222,14 +223,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
   
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   color: white;
   text-transform: uppercase;
   
-  width: 90%;
-  line-height: 1.2;
   z-index: 2;
+  width: 90%;
+  line-height: 1.3;
 }
+
