@@ -206,29 +206,30 @@
 
     /* COMPETENCIAS */
 
-    .competencias {
-        display: flex;
-        gap: 20px;
-        flex-wrap: wrap;
-      
-    }
-
     .competencias .competencia {
-        flex: 0 1 32%;
-          position: relative;
-    }
+  flex: 0 1 32%;
+  position: relative;
+}
 
-    .competencias .competencia  img {
-        width: 100%;
-        
-        border-radius:20px;
-    }
+.competencias .competencia img {
+  width: 100%;
+  border-radius:20px;
+}
 
 .competencias .competencia p {
-  position: absolute ;
-  top: 10px ;
-  left: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
   color: white;
-  z-index: 1;
-  margin: 0 ;
+  text-transform: uppercase;
+  
+  width: 90%;
+  line-height: 1.2;
+  z-index: 2;
 }
