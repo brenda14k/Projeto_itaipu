@@ -227,8 +227,8 @@
 
 .competencias .competencia p {
   position: absolute ;
-  top: 6px ;
-  left: 6px;
+  top: 10px ;
+  left: 10px;
   color: white;
   z-index: 1;
   margin: 0 ;
