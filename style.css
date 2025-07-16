@@ -218,9 +218,9 @@
 }
 .competencias .competencia p {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 50px;
+  left: 50px;
+  
 
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
