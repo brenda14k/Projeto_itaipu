@@ -206,18 +206,11 @@
 
     /* COMPETENCIAS */
 
-.competencias {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  padding: 40px 0;
-}
-
-.competencia {
-  width: 280px;
-  text-align: center;
-}
+ .competencias {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
 
     .competencias .competencia {
         flex: 0 1 32%;
