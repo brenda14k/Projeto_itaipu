@@ -126,7 +126,7 @@
 .noticias {
     display: flex;
     gap: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
     .noticias .noticia {
@@ -214,19 +214,18 @@
     color: white;          /* Cor do texto */
     font-weight: 600;      /* Deixa o texto um pouco mais grosso */
     font-size: 18px;       /* Tamanho da fonte */
+       padding: 40px;
   
 }
 
-.botao_final a:hover {
-    background-color: #005f99;  /* Muda a cor de fundo ao passar o mouse */
-}
+
 
     
 
     /* COMPETENCIAS */
 
  .competencias {
-     padding: 40px;
+    
         display: flex;
         gap: 20px;
         flex-wrap: wrap;
