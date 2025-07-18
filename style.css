@@ -126,7 +126,7 @@
 .noticias {
     display: flex;
     gap: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
     .noticias .noticia {
@@ -216,6 +216,7 @@
     /* COMPETENCIAS */
 
  .competencias {
+     padding: 40px;
         display: flex;
         gap: 20px;
         flex-wrap: wrap;
