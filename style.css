@@ -204,20 +204,22 @@
             background-color: #0082c4;
             color: #ebebeb;
         }
+.botao_final {
+    text-align: right;  /* Alinha o conteúdo à direita */
+    margin-top: 20px;   /* Adiciona um espaço acima */
+}
 
-.noticia .botao_final a{
-            text-decoration: none;
-            font-style: italic;
-            color: white;
-            padding: 4px 15px;
-           left: 290px;
-            
-        }
+.botao_final a {
+    text-decoration: none;
+    color: white;          /* Cor do texto */
+    font-weight: 600;      /* Deixa o texto um pouco mais grosso */
+    font-size: 18px;       /* Tamanho da fonte */
+  
+}
 
-   .noticia .botao_final a:hover {
-            
-            color: white;
-        }
+.botao_final a:hover {
+    background-color: #005f99;  /* Muda a cor de fundo ao passar o mouse */
+}
 
     
 
