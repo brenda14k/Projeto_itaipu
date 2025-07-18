@@ -234,18 +234,16 @@
   padding: 0;
   white-space: normal;
   z-index: 10;
-  position: absolute;
+  position: relative;
 }
 .comp_1 {
-  
-  top: 187.5px;
-  left: 84px;
+ transform: translate(84px, 187.5px);
  
 }
 
 .comp_2 {
   
-  top: 187.5px;
+  top: 126px;
   left: 84px;
  
 }
