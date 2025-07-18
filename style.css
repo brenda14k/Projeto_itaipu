@@ -73,9 +73,9 @@
 .menu-cabecalho li:hover i {
     background-color: transparent;
 }
-.menu-cabecalho a:hover {/*parte nova*/
+/*.menu-cabecalho a:hover {/*parte nova*/
        background-color: #9b9b9b;
-         color: red;/*mudar para azul*/
+         color: red;/*mudar para azul*/*/
         }
 /* MENU PRINCIPAL */
 
@@ -102,7 +102,7 @@
 
 .menu a:hover {
     background-color: #fff;
-  /*  color: red;*/
+   color: red;
 }
 
 /* BANNNER */
@@ -129,7 +129,7 @@
 .noticias {
     display: flex;
     gap: 20px;
-    /*padding-bottom: 0px;*/
+    padding-bottom: 30px;
 }
 
     .noticias .noticia {
@@ -210,7 +210,7 @@
 .botao_final {/*tudo isso novo*/
     text-align: right;  /* Alinha o conteúdo à direita */
     margin-top: 20px;   /* Adiciona um espaço acima */
-    padding: 20px;/*parte nova*/
+   /* padding: 20px;/*parte nova*/*/
 }
 
 .botao_final a {
