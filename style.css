@@ -221,30 +221,29 @@
         width: 100%;
     }
     
-.competencias p {
-    position: absolute;
-    top: 50%; /* Centraliza verticalmente */
-    left: 50%; /* Centraliza horizontalmente */
-    transform: translate(-50%, -50%); /* Ajusta o deslocamento para o centro exato */
-    width: 100%; /* Garante que o texto não ultrapasse a imagem */
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    color: white;
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: center; /* Para centralizar o texto */
-    z-index: 10;
+ 
+    .competencias p {
+  width: 280px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  white-space: normal;
+  z-index: 10;
+  position: relative;
 }
 .comp_1 {
-  top: 126px;
-  left: 84px;
+ transform: translate(84px, 187.5px);
  
 }
 
 .comp_2 {
   
-  top: 130px;
+  top: 126px;
   left: 84px;
  
 }
@@ -289,4 +288,4 @@
   top: 187.5px;
   left: 84px;
  
-}
+} não deu certo moveu para baixo de vez permanecer no lugar
