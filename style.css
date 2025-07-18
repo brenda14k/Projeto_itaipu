@@ -202,8 +202,9 @@
 .noticia .botao_final a{
             text-decoration: none;
             font-style: italic;
-            color: #0082c4;
+            color: white;
             padding: 4px 15px;
+    left: 290px;
             
         }
 
