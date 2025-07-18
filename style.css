@@ -75,7 +75,7 @@
 }
 .menu-cabecalho a:hover {
        background-color: #9b9b9b;
-         color: red;
+         color: red;/*mudar para azul*/
         }
 /* MENU PRINCIPAL */
 
@@ -129,7 +129,7 @@
 .noticias {
     display: flex;
     gap: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 18px;
 }
 
     .noticias .noticia {
@@ -210,14 +210,13 @@
 .botao_final {
     text-align: right;  /* Alinha o conteúdo à direita */
     margin-top: 20px;   /* Adiciona um espaço acima */
+    padding: 40px;
 }
 
 .botao_final a {
     text-decoration: none;
-    color: white;          /* Cor do texto */
-    font-weight: 600;      /* Deixa o texto um pouco mais grosso */
-    font-size: 18px;       /* Tamanho da fonte */
-       padding: 40px;
+    color: white;          
+    font-size: 17px;     
   
 }
 
@@ -232,7 +231,7 @@
         display: flex;
         gap: 20px;
         flex-wrap: wrap;
-    
+       background-color: #9b9b9b;
     }
 
     .competencias .competencia {
@@ -242,7 +241,7 @@
 
     .competencias .competencia  img {
         width: 100%;
-         boder-radius: 30px;
+       
     }
     
  
