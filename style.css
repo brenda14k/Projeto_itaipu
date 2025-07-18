@@ -72,9 +72,11 @@
 
 .menu-cabecalho li:hover i {
     background-color: transparent;
-    color: #9b9b9b;
 }
-
+.menu-cabecalho a:hover {
+       background-color: #9b9b9b;
+         color: red;
+        }
 /* MENU PRINCIPAL */
 
 .menu {
@@ -268,7 +270,7 @@ top: 185.5px;
 .comp_2 {
   
   top: 188px;
-  left: 84px;
+  left: 90px;
  
 }
 .comp_3 {
