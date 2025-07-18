@@ -199,19 +199,27 @@
             padding: 4px 15px;
             border-radius: 25px;
         }
+
+     .noticia .botao a:hover {
+            background-color: #0082c4;
+            color: #ebebeb;
+        }
+
 .noticia .botao_final a{
             text-decoration: none;
             font-style: italic;
             color: white;
             padding: 4px 15px;
-    left: 290px;
+           left: 290px;
             
         }
 
-         .noticia .botao a:hover {
-            background-color: #0082c4;
-            color: #ebebeb;
+   .noticia .botao_final a:hover {
+            
+            color: white;
         }
+
+    
 
     /* COMPETENCIAS */
 
