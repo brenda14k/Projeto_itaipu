@@ -102,7 +102,7 @@
 
 .menu a:hover {
     background-color: #fff;
-    color: red;
+  /*  color: red;*/
 }
 
 /* BANNNER */
@@ -129,7 +129,7 @@
 .noticias {
     display: flex;
     gap: 20px;
-    padding-bottom: 10px;/*parte nova*/
+    padding-bottom: 0px;/*parte nova*/
 }
 
     .noticias .noticia {
