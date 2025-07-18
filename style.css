@@ -198,6 +198,13 @@
             padding: 4px 15px;
             border-radius: 25px;
         }
+.noticia .botao_final a{
+            text-decoration: none;
+            font-style: italic;
+            color: #0082c4;
+            padding: 4px 15px;
+            
+        }
 
          .noticia .botao a:hover {
             background-color: #0082c4;
