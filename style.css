@@ -73,7 +73,7 @@
 .menu-cabecalho li:hover i {
     background-color: transparent;
 }
-.menu-cabecalho a:hover {
+.menu-cabecalho a:hover {/*parte nova*/
        background-color: #9b9b9b;
          color: red;/*mudar para azul*/
         }
@@ -123,7 +123,7 @@
     .noticias-competencias .titulo {
         color: #fff;
         font-size: 30px;
-        margin-bottom: 10px;
+        margin-bottom: 10px;/*parte nova*/
     }
 
 .noticias {
@@ -207,7 +207,7 @@
             background-color: #0082c4;
             color: #ebebeb;
         }
-.botao_final {
+.botao_final {/*tudo isso novo*/
     text-align: right;  /* Alinha o conteúdo à direita */
     margin-top: 20px;   /* Adiciona um espaço acima */
     padding: 40px;
@@ -242,6 +242,7 @@
 
     .competencias .competencia  img {
         width: 100%;
+          border-radius: 15px;/*novo*/
        
     }
     
