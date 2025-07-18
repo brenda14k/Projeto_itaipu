@@ -237,6 +237,7 @@
     .competencias .competencia {
         flex: 0 1 32%;
         position: relative;
+          background-color: #9b9b9b;
     }
 
     .competencias .competencia  img {
