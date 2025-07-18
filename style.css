@@ -123,13 +123,13 @@
     .noticias-competencias .titulo {
         color: #fff;
         font-size: 30px;
-        margin-bottom: 10px;/*parte nova*/
+        margin-bottom: 10px;
     }
 
 .noticias {
     display: flex;
     gap: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 9px;/*parte nova*/
 }
 
     .noticias .noticia {
