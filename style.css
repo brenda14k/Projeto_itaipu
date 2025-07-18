@@ -129,7 +129,7 @@
 .noticias {
     display: flex;
     gap: 20px;
-    padding-bottom: 0px;/*parte nova*/
+    /*padding-bottom: 0px;*/
 }
 
     .noticias .noticia {
