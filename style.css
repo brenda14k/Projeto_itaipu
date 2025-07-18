@@ -73,10 +73,7 @@
 .menu-cabecalho li:hover i {
     background-color: transparent;
 }
-/*.menu-cabecalho a:hover {/*parte nova*/
-       background-color: #9b9b9b;
-         color: red;/*mudar para azul*/*/
-        }
+
 /* MENU PRINCIPAL */
 
 .menu {
