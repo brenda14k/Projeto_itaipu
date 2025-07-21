@@ -313,4 +313,25 @@ top: 185.5px;
   top: 187.5px;
   left: 84px;
  
-} não deu certo moveu para baixo de vez permanecer no lugar
+} 
+
+.titulo{
+    color: #9b9b9b;
+ 
+}
+.oportunidades{
+      display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+       background-color: white;
+}
+    .oportunidade{
+color: white;
+background-color: yellow;  
+}
+
+.cursos{
+    background-color: white;
+    color: yellow;
+    border-radius: 20px;
+}
