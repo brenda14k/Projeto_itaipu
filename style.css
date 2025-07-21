@@ -326,8 +326,8 @@ top: 185.5px;
        background-color: white;
 }
     .oportunidade{
- width: 200px;   /* Define a largura da caixa como 200 pixels */
- height: 150px;  /* Define a altura da caixa como 150 pixels */
+ width: 100px;   /* Define a largura da caixa como 200 pixels */
+ height: 300px;  /* Define a altura da caixa como 150 pixels */
 color: white;
 background-color: yellow;  
 }
