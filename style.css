@@ -328,8 +328,8 @@ top: 185.5px;
 }
     .oportunidade{
 position: absolute;  /* A posição será em relação ao contêiner pai (.cursos) */
-    top: 0;              /* Fica alinhado no topo do contêiner pai */
-    left: 0;             /* Fica alinhado à esquerda do contêiner pai */
+    top: 0;            
+    left: 0;           
     width: 100%;         /* Preenche a largura do contêiner */
     height: 100%;        /* Preenche a altura do contêiner */
     color: white;
@@ -338,7 +338,7 @@ position: absolute;  /* A posição será em relação ao contêiner pai (.curso
 
 .cursos{
      width: 500px;           /* Largura da caixa branca */
-    height: 100px;    
+    height: 500px;    
     background-color: white;
     color: yellow;
     border-radius: 20px;
