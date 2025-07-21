@@ -322,21 +322,21 @@ top: 185.5px;
     flex-wrap: wrap;
     background-color: white;
     padding: 20px;
-    justify-content: flex-start; /* Garantir que os itens comecem do início */
+    justify-content: flex-start; /* Garanti que os itens comecem do início */
 }
 
 .oportunidade {
-    width: 200px; /* Aumentei a largura para acomodar melhor os ícones e texto */
-    height: 300px; /* Mantive a altura */
+    width: 500px; /*  a largura  */
+    height: 300px; /*  a altura */
     background-color: yellow;
     color: #333;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+
+    flex-direction: column;/*organiza verticalmente*/
+    justify-content: space-between;/* espço entre os container*/
+    padding: 20px;/* espaço entre os elementos*/
+  /*  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); adiciona sombra usar na lupa de pesquisa*/
+    text-align: center;/*alinha o texto no centro 
 }
 
 .oportunidade img {
@@ -346,6 +346,7 @@ top: 185.5px;
 }
 
 .oportunidade p {
+    displey: flex;
     font-size: 16px;
     color: #333;
     font-weight: 600;
