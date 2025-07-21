@@ -327,19 +327,14 @@ top: 185.5px;
     
 }
 
-    .oportunidade{
-position: absolute;  /* A posição será em relação ao contêiner pai (.cursos) */
-    top: 0;            
-    left: 0;           
-    width: 100%;         /* Preenche a largura do contêiner */
-    height: 100%;        /* Preenche a altura do contêiner */
-    color: white;
-    background-color: yellow;
+   .oportunidade{
+ width: 100px;   /* Define a largura da caixa como 200 pixels */
+ height: 300px;  /* Define a altura da caixa como 150 pixels */
+color: white;
+background-color: yellow;  
 }
 
 .cursos{
-     width: 500px;           /* Largura da caixa branca */
-    height: 500px;    
     background-color: white;
     color: yellow;
     border-radius: 20px;
