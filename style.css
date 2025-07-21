@@ -346,7 +346,7 @@ top: 185.5px;
 }
 
 .oportunidade p {
-    displey: flex;
+    display: flex;
     font-size: 16px;
     color: #DDA853;
     font-weight: 600;
