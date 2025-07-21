@@ -315,27 +315,38 @@ top: 185.5px;
  
 } 
 
-.titulo{
-    color: #fff;
- 
-}
-.oportunidades{
-      display: flex;
-        gap: 20px;
-        flex-wrap: wrap;
-       background-color: white;
-    
-}
-
-   .oportunidade{
- width: 100px;   /* Define a largura da caixa como 200 pixels */
- height: 300px;  /* Define a altura da caixa como 150 pixels */
-color: white;
-background-color: yellow;  
-}
-
-.cursos{
+/* Oportunidades */
+.oportunidades {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
     background-color: white;
-    color: yellow;
-    border-radius: 20px;
+    padding: 20px;
+    justify-content: flex-start; /* Garantir que os itens comecem do início */
+}
+
+.oportunidade {
+    width: 200px; /* Aumentei a largura para acomodar melhor os ícones e texto */
+    height: 300px; /* Mantive a altura */
+    background-color: yellow;
+    color: #333;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.oportunidade img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.oportunidade p {
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
 }
