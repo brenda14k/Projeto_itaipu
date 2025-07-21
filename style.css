@@ -325,29 +325,13 @@ top: 185.5px;
     justify-content: flex-start; /* Garanti que os itens comecem do início */
 }
 
-.oportunidade {
-    width: 500px; /*  a largura  */
-    height: 300px; /*  a altura */
-    background-color: yellow;
-    color: #DDA853;
-    border-radius: 10px;
 
-    flex-direction: column;/*organiza verticalmente*/
-    justify-content: space-between;/* espço entre os container*/
-    padding: 20px;/* espaço entre os elementos*/
-  /*  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); adiciona sombra usar na lupa de pesquisa*/
-    text-align: center;/*alinha o texto no centro 
+.oportunidade {
+   /* para fazer a caixa usa a largura altura, as cores , flex, justify, text align*/
 }
 
 .oportunidade img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
+   /*altura e largura e dar um jeito de alinhar com o texto
 }
 
-.oportunidade p {
-    display: flex;
-    font-size: 16px;
-    color: #DDA853;
-    font-weight: 600;
-}
+
