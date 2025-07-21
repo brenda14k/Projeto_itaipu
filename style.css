@@ -327,7 +327,7 @@ top: 185.5px;
     
 }
     .oportunidade{
-osition: absolute;  /* A posição será em relação ao contêiner pai (.cursos) */
+position: absolute;  /* A posição será em relação ao contêiner pai (.cursos) */
     top: 0;              /* Fica alinhado no topo do contêiner pai */
     left: 0;             /* Fica alinhado à esquerda do contêiner pai */
     width: 100%;         /* Preenche a largura do contêiner */
