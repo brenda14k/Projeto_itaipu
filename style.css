@@ -329,7 +329,7 @@ top: 185.5px;
     width: 500px; /*  a largura  */
     height: 300px; /*  a altura */
     background-color: yellow;
-    color: #333;
+    color: #DDA853;
     border-radius: 10px;
 
     flex-direction: column;/*organiza verticalmente*/
