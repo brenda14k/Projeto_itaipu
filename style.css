@@ -316,7 +316,7 @@ top: 185.5px;
 } 
 
 .titulo{
-    color: #9b9b9b;
+    color: #fff;
  
 }
 .oportunidades{
@@ -326,6 +326,8 @@ top: 185.5px;
        background-color: white;
 }
     .oportunidade{
+ width: 200px;   /* Define a largura da caixa como 200 pixels */
+ height: 150px;  /* Define a altura da caixa como 150 pixels */
 color: white;
 background-color: yellow;  
 }
