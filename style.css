@@ -312,94 +312,101 @@ top: 185.5px;
   
   top: 187.5px;
   left: 84px;
- 
 /* Oportunidades */
 .oportunidades {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    background-color: white;
+    background-color: #00315EBD;  
     padding: 40px 0;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 
 .oportunidades .tituloCor {
     padding: 20px;
-    color: #00315EBD;
+    color: #00315EBD;  /* Cor azul */
     font-size: 24px;
     margin-bottom: 30px;
+    text-align: center;
+    background-color: white;  /* Fundo branco */
+    width: 100%;
+    border-radius: 10px;  /* Borda arredondada */
 }
 
-
-/* Oportunidades */
-.oportunidades {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    background-color: white;
-    padding: 40px 0;
-    justify-content: center;
-}
-
-.oportunidades .tituloCor {
-    padding: 20px;
-    color: #00315EBD;
-    font-size: 24px;
-    margin-bottom: 30px;
-}
-/* Oportunidades */
-.oportunidades {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    background-color: white;
-    padding: 40px 0;
-    justify-content: center;
-}
-
-.oportunidades .tituloCor {
-    padding: 20px;
-    color: #00315EBD;
-    font-size: 24px;
-    margin-bottom: 30px;
-}
-
-/* Caixa de cada oportunidade */
+/* Caixa amarela com o título "CURSOS" dentro */
 .oportunidade {
-    width: 300px;  /* Ajustando a largura para ser mais estreita */
-    background-color: #f0f0f0; /* Garantir que a cor de fundo apareça */
+    width: 309px;
+    height: 309px;
+    background-color: #FFDB4D; /* Caixa amarela */
     border-radius: 15px;
-    box-sizing: border-box;
-    padding: 0;  /* Removendo padding extra */
     display: flex;
-    flex-direction: column;  /* Organizando a imagem e o texto na vertical */
-    overflow: hidden;  /* Impede que o conteúdo ultrapasse a caixa */
-    margin: 10px;  /* Adicionando um pequeno espaçamento entre as caixas */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
 }
 
-/* Imagem da oportunidade */
-.oportunidade img {
-    width: 100%;  /* A imagem ocupa toda a largura da caixa */
-    height: 200px;  /* Definindo altura para a imagem */
-    object-fit: cover;  /* Ajusta a imagem para preencher a caixa sem distorcer */
-    margin-bottom: 10px;  /* Espaço entre a imagem e o texto */
+
+.oportunidade .tituloCursos {
+    font-size: 20px;
+    color: white;  /* Texto branco */
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-/* Subtítulo da oportunidade */
-.oportunidade .subTitulo {
-    color: white;  /* Cor do texto do subtítulo */
-    font-size: 18px;  /* Tamanho da fonte do subtítulo */
-    padding: 10px;  /* Adicionando padding ao subtítulo */
-    background-color: #00315EBD;  /* Cor de fundo do subtítulo */
-    text-align: center;  /* Centralizando o subtítulo */
-    margin-top: -1px;  /* Ajuste para ficar mais próximo da imagem */
+
+.cursos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    text-align: center;
 }
 
-/* Texto do conteúdo */
-.oportunidade p {
-    color: #00315EBD;  /* Cor do texto */
-    font-size: 16px;  /* Tamanho do texto */
-    padding: 10px;  /* Padding para o texto não ficar colado às bordas */
-    margin: 0;  /* Remover margens desnecessárias */
+
+.curso {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
+
+
+.cursoBox {
+    background-color: white;  /* Fundo branco */
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.cursoBox img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+
+.cursoText {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cursoText p {
+    color: #FFDB4D; /* Texto amarelo */
+    font-size: 14px;
+    font-weight: 500;
+}
+
 
