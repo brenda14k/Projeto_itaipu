@@ -324,18 +324,18 @@ top: 185.5px;
 }
 
 .oportunidades .tituloCor {
+    padding: 20px;
     color: #00315EBD;
     font-size: 24px;
     margin-bottom: 30px;
 }
 
 .oportunidade {
-    width: 20px;
+    width: 350px;
     background-color: #f0f0f0;
     border-radius: 15px;
-  
-    
-    text-align: center;
+    text-align: left;  /* Alinha o texto à esquerda */
+    padding: 20px; 
    
 }
 
@@ -352,7 +352,6 @@ top: 185.5px;
     font-size: 18px;
     padding: 10px;
     background-color: #00315EBD;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  
 }
 
