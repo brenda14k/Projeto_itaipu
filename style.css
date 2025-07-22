@@ -347,6 +347,22 @@ top: 185.5px;
     font-size: 24px;
     margin-bottom: 30px;
 }
+/* Oportunidades */
+.oportunidades {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 40px 0;
+    justify-content: center;
+}
+
+.oportunidades .tituloCor {
+    padding: 20px;
+    color: #00315EBD;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
 
 /* Caixa de cada oportunidade */
 .oportunidade {
@@ -386,3 +402,4 @@ top: 185.5px;
     padding: 10px;  /* Padding para o texto não ficar colado às bordas */
     margin: 0;  /* Remover margens desnecessárias */
 }
+
