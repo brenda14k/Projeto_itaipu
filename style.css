@@ -99,7 +99,7 @@
 
 .menu a:hover {
     background-color: #fff;
-   color: red;
+   color: purple;
 }
 
 /* BANNNER */
@@ -328,6 +328,7 @@ top: 185.5px;
 
 .oportunidade {
    /* para fazer a caixa usa a largura altura, as cores , flex, justify, text align*/
+    padding: 20px
     widht: 800px;
     height: 500px;
     background-color: yellow;
@@ -349,7 +350,7 @@ top: 185.5px;
 }
 .cursos{
     color: yellow;
-          background-color: white;
+    background-color: white;
     width: 300px;
     heigth:300px;
     border-radius: 20px;
