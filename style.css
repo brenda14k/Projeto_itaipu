@@ -313,7 +313,7 @@ top: 185.5px;
   top: 187.5px;
   left: 84px;
  
-} 
+/* Oportunidades */
 .oportunidades {
     display: flex;
     gap: 20px;
@@ -330,29 +330,40 @@ top: 185.5px;
     margin-bottom: 30px;
 }
 
+
 .oportunidade {
-    width: 350px;
+    width: 350px; 
     background-color: #f0f0f0;
     border-radius: 15px;
-    text-align: left;  /* Alinha o texto à esquerda */
-       box-sizing: border-box;
-    padding: 20px; 
-   
+    box-sizing: border-box; /* Garanti que o padding não afete o tamanho */
+    padding: 0; /* Remover o padding extra */
+    text-align: left; /* Alinhar texto à esquerda */
+    display: flex;
+    flex-direction: column; /* Organizar a imagem e o texto em coluna */
+    overflow: hidden; /* Evitar que o conteúdo ultrapasse a caixa */
 }
-
 
 
 .oportunidade img {
     width: 100%;
     height: 200px;
- 
+    object-fit: cover; /* Ajusta a imagem sem distorção */
 }
+
 
 .oportunidade .subTitulo {
     color: white;
     font-size: 18px;
     padding: 10px;
     background-color: #00315EBD;
-  
+    margin-top: -1px; /* Ajuste para que fique mais próximo da imagem */
+}
+
+/* Texto do conteúdo (p) */
+.oportunidade p {
+    color: #00315EBD; /* Cor do texto */
+    padding: 10px; /* Padding para garantir que o texto não fique colado à borda */
+    font-size: 16px; /* Tamanho de fonte ajustado */
+    margin-top: -1px; /* Ajuste para manter o texto mais compacto */
 }
 
