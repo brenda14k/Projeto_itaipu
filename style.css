@@ -322,38 +322,56 @@ top: 185.5px;
     flex-wrap: wrap;
     background-color: white;
     padding: 20px;
-    justify-content: flex-start; /* Garanti que os itens comecem do início */
+    justify-content: flex-start; /* Garante que os itens comecem do início */
 }
 
-
+/* Título das oportunidades */
+.oportunidades .tituloCor {
+    color: #00315EBD; /* Azul roxo para o título das oportunidades */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
 .oportunidade {
-   /* para fazer a caixa usa a largura altura, as cores , flex, justify, text align*/
-    padding: 20px
-    widht: 800px;
-    height: 500px;
+    padding: 20px;
+    width: 800px; /* Corrigido para 'width' */
+    height: 500px; /* Corrigido para 'height' */
     background-color: yellow;
     display: flex;
-    justify-content: flex-start;
-    text-align: center;
+    flex-direction: column; /* Garante que o conteúdo seja disposto em coluna */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    text-align: center; /* Alinha o texto no centro */
 }
 
 .oportunidade img {
-   /*altura e largura e dar um jeito de alinhar com o texto
-    width: 500px
-    height: 500px
+    width: 100%; /* Ajuste a imagem para ocupar toda a largura disponível */
+    height: 60%; /* Ajuste a altura da imagem para não cobrir o texto */
+    object-fit: cover; /* Garante que a imagem se ajuste sem distorcer */
 }
-.oportunidades .tituloCor{
-    color: #00315EBD 
+
+.oportunidades .tituloCor {
+    color: #00315EBD; /* Cor azul meio roxo para o título */
+    font-size: 24px; /* Tamanho de fonte adequado para destacar o título */
 }
-.oportunidade .subTitulo{
-    color:white;
+
+.oportunidade .subTitulo {
+    color: white; /* Cor branca para o subtítulo */
+    font-size: 20px; /* Tamanho de fonte para o subtítulo */
+    margin-top: 10px;
 }
-.cursos{
+
+/* Estilo das caixas de 'cursos' */
+.cursos {
     color: yellow;
     background-color: white;
     width: 300px;
-    heigth:300px;
+    height: 300px; /* Corrigido para 'height' */
     border-radius: 20px;
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo dentro da caixa */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    text-align: center; /* Alinha o texto dentro da caixa */
+    padding: 20px;
+    margin: 20px; /* Adiciona espaçamento entre as caixas */
 }
-
 
