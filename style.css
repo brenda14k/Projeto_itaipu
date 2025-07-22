@@ -343,8 +343,8 @@ top: 185.5px;
 }
 
 .cursos img {
-    width: 500px; /* Ajuste a imagem para ocupar toda a largura disponível */
-    height: 500px; /* Ajuste a altura da imagem para não cobrir o texto */
+    width: 100px; /* Ajuste a imagem para ocupar toda a largura disponível */
+    height: 100px; /* Ajuste a altura da imagem para não cobrir o texto */
     object-fit: cover; /* Garante que a imagem se ajuste sem distorcer */
 }
 
