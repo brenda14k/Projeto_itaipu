@@ -328,10 +328,31 @@ top: 185.5px;
 
 .oportunidade {
    /* para fazer a caixa usa a largura altura, as cores , flex, justify, text align*/
+    widht: 800px;
+    height: 500px;
+    background-color: yellow;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
 }
 
 .oportunidade img {
    /*altura e largura e dar um jeito de alinhar com o texto
+    width: 500px
+    height: 500px
+}
+.oportunidades .tituloCor{
+    color: #00315EBD 
+}
+.oportunidade .subTitulo{
+    color:white;
+}
+.cursos{
+    color: yellow;
+          background-color: white;
+    width: 300px;
+    heigth:300px;
+    border-radius: 20px;
 }
 
 
