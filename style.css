@@ -312,101 +312,50 @@ top: 185.5px;
   
   top: 187.5px;
   left: 84px;
-/* Oportunidades */
-.oportunidades {
-    background-color: #00315EBD;  
-    padding: 40px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
-
-.oportunidades .tituloCor {
-    padding: 20px;
-    color: #00315EBD;  /* Cor azul */
-    font-size: 24px;
-    margin-bottom: 30px;
-    text-align: center;
-    background-color: white;  /* Fundo branco */
-    width: 100%;
-    border-radius: 10px;  /* Borda arredondada */
-}
-
-/* Caixa amarela com o título "CURSOS" dentro */
-.oportunidade {
-    width: 309px;
-    height: 309px;
-    background-color: #FFDB4D; /* Caixa amarela */
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-}
-
-
-.oportunidade .tituloCursos {
-    font-size: 20px;
-    color: white;  /* Texto branco */
-    font-weight: bold;
+    
+    .oportunidades h1 {
+    color: #007BFF; /* Azul */
+    font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
+/* Estilo da seção 'Cursos' */
+.oportunidade h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
 
+/* Container das caixas de curso */
 .cursos {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
-    width: 100%;
-    text-align: center;
+    gap: 20px;
 }
 
-
+/* Caixa de curso */
 .curso {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-
-.cursoBox {
-    background-color: white;  /* Fundo branco */
-    border-radius: 10px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-
-.cursoBox img {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-}
-
-
-.cursoText {
     background-color: white;
-    border-radius: 10px;
     padding: 10px;
+    border-radius: 10px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 10px;
+    width: 230px;
+    height: 100px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-
-.cursoText p {
-    color: #FFDB4D; /* Texto amarelo */
-    font-size: 14px;
-    font-weight: 500;
+/* Imagem dentro das caixas */
+.curso img {
+    width: 40px; /* Tamanho da imagem */
+    height: 40px;
+    object-fit: cover; /* A imagem vai preencher a área sem distorcer */
 }
 
+/* Texto dentro das caixas */
+.curso p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
 
