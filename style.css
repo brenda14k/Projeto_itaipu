@@ -366,6 +366,7 @@ top: 185.5px;
     width: 100%;  /* A imagem ocupa toda a largura da caixa */
     height: 200px;  /* Definindo altura para a imagem */
     object-fit: cover;  /* Ajusta a imagem para preencher a caixa sem distorcer */
+    margin-bottom: 10px;  /* Espaço entre a imagem e o texto */
 }
 
 /* Subtítulo da oportunidade */
@@ -378,3 +379,10 @@ top: 185.5px;
     margin-top: -1px;  /* Ajuste para ficar mais próximo da imagem */
 }
 
+/* Texto do conteúdo */
+.oportunidade p {
+    color: #00315EBD;  /* Cor do texto */
+    font-size: 16px;  /* Tamanho do texto */
+    padding: 10px;  /* Padding para o texto não ficar colado às bordas */
+    margin: 0;  /* Remover margens desnecessárias */
+}
