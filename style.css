@@ -331,39 +331,50 @@ top: 185.5px;
 }
 
 
-.oportunidade {
-    width: 350px; 
-    background-color: #f0f0f0;
-    border-radius: 15px;
-    box-sizing: border-box; /* Garanti que o padding não afete o tamanho */
-    padding: 0; /* Remover o padding extra */
-    text-align: left; /* Alinhar texto à esquerda */
+/* Oportunidades */
+.oportunidades {
     display: flex;
-    flex-direction: column; /* Organizar a imagem e o texto em coluna */
-    overflow: hidden; /* Evitar que o conteúdo ultrapasse a caixa */
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 40px 0;
+    justify-content: center;
 }
 
+.oportunidades .tituloCor {
+    padding: 20px;
+    color: #00315EBD;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
 
+/* Caixa de cada oportunidade */
+.oportunidade {
+    width: 300px;  /* Ajustando a largura para ser mais estreita */
+    background-color: #f0f0f0; /* Garantir que a cor de fundo apareça */
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 0;  /* Removendo padding extra */
+    display: flex;
+    flex-direction: column;  /* Organizando a imagem e o texto na vertical */
+    overflow: hidden;  /* Impede que o conteúdo ultrapasse a caixa */
+    margin: 10px;  /* Adicionando um pequeno espaçamento entre as caixas */
+}
+
+/* Imagem da oportunidade */
 .oportunidade img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover; /* Ajusta a imagem sem distorção */
+    width: 100%;  /* A imagem ocupa toda a largura da caixa */
+    height: 200px;  /* Definindo altura para a imagem */
+    object-fit: cover;  /* Ajusta a imagem para preencher a caixa sem distorcer */
 }
 
-
+/* Subtítulo da oportunidade */
 .oportunidade .subTitulo {
-    color: white;
-    font-size: 18px;
-    padding: 10px;
-    background-color: #00315EBD;
-    margin-top: -1px; /* Ajuste para que fique mais próximo da imagem */
-}
-
-/* Texto do conteúdo (p) */
-.oportunidade p {
-    color: #00315EBD; /* Cor do texto */
-    padding: 10px; /* Padding para garantir que o texto não fique colado à borda */
-    font-size: 16px; /* Tamanho de fonte ajustado */
-    margin-top: -1px; /* Ajuste para manter o texto mais compacto */
+    color: white;  /* Cor do texto do subtítulo */
+    font-size: 18px;  /* Tamanho da fonte do subtítulo */
+    padding: 10px;  /* Adicionando padding ao subtítulo */
+    background-color: #00315EBD;  /* Cor de fundo do subtítulo */
+    text-align: center;  /* Centralizando o subtítulo */
+    margin-top: -1px;  /* Ajuste para ficar mais próximo da imagem */
 }
 
