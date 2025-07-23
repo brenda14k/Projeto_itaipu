@@ -315,13 +315,18 @@ top: 185.5px;
 
     
 }
+
+.oportunidades{
+      background-color: #FFFFFF; /* Fundo branco */
+    z-index: 1; /* Para garantir que o texto fique acima de outros elementos */
+        padding: 100px;
+}
 .oportunidades h1.titulo {
-    padding: 20px;
+
     color: #003c6a; /* Azul */
     font-size: 2.5rem;
     margin-bottom: 20px;
-    background-color: #FFFFFF; /* Fundo branco */
-    z-index: 1; /* Para garantir que o texto fique acima de outros elementos */
+  
 }
 
 .oportunidade h2.titulo {
