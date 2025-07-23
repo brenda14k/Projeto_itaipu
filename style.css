@@ -332,7 +332,7 @@ top: 185.5px;
 
 /* Estilo para o subtítulo "Cursos" */
 .titulo-cursos {
-    color: #003c6a; /* Azul */
+    color: white; /* Azul */
     font-size: 1.5rem;
     text-align: center;
     margin-top: 20px;
@@ -365,7 +365,7 @@ top: 185.5px;
 }
 
 .curso p {
-    color: #003c6a; /* Cor azul */
+    color: white;
     font-weight: bold;
 }
 
