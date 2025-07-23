@@ -316,11 +316,18 @@ top: 185.5px;
     
     .oportunidades h1 {
         padding: 20px;
-    color: #007BFF; /* Azul */
+    color: #003c6a; /* Azul */
     font-size: 2.5rem;
     margin-bottom: 20px;
+         background-color:#FFFFFF;
 }
-
+.oportunidade titulo{
+ 
+    width:463px;
+    height: 381px;
+    color:#FFFFFF;
+    background-color:#FAB518;
+}
 
 
 
