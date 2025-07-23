@@ -320,7 +320,8 @@ top: 185.5px;
     color: #003c6a; /* Azul */
     text-align: center;
     font-size: 2rem;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
 }
 
 /* Caixa de Oportunidades */
@@ -329,10 +330,11 @@ top: 185.5px;
     padding: 20px;
     border-radius: 10px; /* Bordas arredondadas */
     margin: 20px auto; /* Centraliza a caixa */
-    width: 70%; /* Reduz a largura da caixa amarela */
+     width: 611px;  /* Alteração: Largura da caixa amarela */
+    height: 674px;
 }
 
-/* Título "Cursos" dentro da caixa */
+
 .titulo-cursos {
     color: white; /* Cor branca */
     font-size: 1.5rem;
