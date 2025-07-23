@@ -324,11 +324,11 @@ top: 185.5px;
     z-index: 1; /* Para garantir que o texto fique acima de outros elementos */
 }
 
-.oportunidades .titulo {
+.oportunidade .titulo {
     width: 463px;
     height: 381px;
     color: #FFFFFF;
    
-
+}
 
 
