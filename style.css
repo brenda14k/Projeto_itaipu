@@ -315,30 +315,30 @@ top: 185.5px;
 
     
 }
-
-/* Caixa de Oportunidades */
+/* Estilo para a palavra "Oportunidades" */
 .oportunidades {
     background-color: #FAB518; /* Fundo amarelo */
-    border-radius: 10px; /* Bordas arredondadas */
     padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
     margin: 20px;
 }
 
-/* Título "OPORTUNIDADES" */
+/* Título principal "Oportunidades" */
 .titulo {
-    color: #003c6a; /* Cor azul */
+    color: #003c6a; /* Azul */
     text-align: center;
+    font-size: 2rem;
 }
 
-/* Estilo para o título "CURSOS" */
-.oportunidade h2 {
-    color: #003c6a; /* Cor azul */
-    text-align: center;
+/* Estilo para o subtítulo "Cursos" */
+.titulo-cursos {
+    color: #003c6a; /* Azul */
     font-size: 1.5rem;
+    text-align: center;
     margin-top: 20px;
 }
 
-/* Estilo para a lista de cursos */
+/* Estilo para os cursos */
 .cursos {
     display: flex;
     justify-content: space-around;
@@ -350,17 +350,17 @@ top: 185.5px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Fundo branco */
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+    width: 200px;
     text-align: center;
-    width: 150px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .curso img {
-    width: 50px;
-    height: 50px;
+    width: 80px; /* Ajustar tamanho das imagens */
+    height: 80px;
     margin-bottom: 10px;
 }
 
@@ -368,6 +368,7 @@ top: 185.5px;
     color: #003c6a; /* Cor azul */
     font-weight: bold;
 }
+
 
 
 
