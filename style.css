@@ -316,24 +316,37 @@ top: 185.5px;
     
 }
 
-.oportunidades{
-      background-color: #FFFFFF; /* Fundo branco */
-    z-index: 1; /* Para garantir que o texto fique acima de outros elementos */
-        padding: 100px;
+/* Para a seção de oportunidades */
+.oportunidades {
+    background-color: #FFFFFF; /* Fundo branco */
+    padding: 100px;
+    position: relative; /* Necessário para z-index funcionar */
+    z-index: 1; /* Garantir que o texto fique acima de outros elementos */
 }
-.oportunidades h1.titulo {
 
+/* Título principal da seção de oportunidades */
+.oportunidades h1.titulo {
     color: #003c6a; /* Azul */
     font-size: 2.5rem;
     margin-bottom: 20px;
-  
+    text-align: center; /* Centraliza o texto */
 }
 
+/* Para o título da subseção dentro de .oportunidade */
 .oportunidade h2.titulo {
     width: 463px;
     height: 381px;
-    color: #FFFFFF;
-   
+    color: #FFFFFF;  /* Texto branco */
+    background-color: #FAB518;  /* Caixa amarela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 10px auto;  /* Centraliza a caixa */
+    border-radius: 10px;  /* Bordas arredondadas */
+    position: relative; /* Necessário para qualquer manipulação de z-index */
 }
+
 
 
