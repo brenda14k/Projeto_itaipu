@@ -315,7 +315,7 @@ top: 185.5px;
 
     
 }
-.oportunidades .titulo {
+.oportunidades h1.titulo {
     padding: 20px;
     color: #003c6a; /* Azul */
     font-size: 2.5rem;
@@ -324,7 +324,7 @@ top: 185.5px;
     z-index: 1; /* Para garantir que o texto fique acima de outros elementos */
 }
 
-.oportunidade .titulo {
+.oportunidade h2.titulo {
     width: 463px;
     height: 381px;
     color: #FFFFFF;
