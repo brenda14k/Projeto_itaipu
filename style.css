@@ -316,36 +316,57 @@ top: 185.5px;
     
 }
 
-/* Para a seção de oportunidades */
+/* Caixa de Oportunidades */
 .oportunidades {
-    background-color: #FFFFFF; /* Fundo branco */
-    padding: 100px;
-    position: relative; /* Necessário para z-index funcionar */
-    z-index: 1; /* Garantir que o texto fique acima de outros elementos */
+    background-color: #FAB518; /* Fundo amarelo */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px;
+    margin: 20px;
 }
 
-/* Título principal da seção de oportunidades */
-.oportunidades h1.titulo {
-    color: #003c6a; /* Azul */
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    text-align: center; /* Centraliza o texto */
-}
-
-/* Para o título da subseção dentro de .oportunidade */
-.oportunidade h2.titulo {
-    width: 463px;
-    height: 381px;
-    color: #FFFFFF;  /* Texto branco */
-    background-color: #FAB518;  /* Caixa amarela */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Título "OPORTUNIDADES" */
+.titulo {
+    color: #003c6a; /* Cor azul */
     text-align: center;
-    font-size: 1.8rem;
-    margin: 10px auto;  /* Centraliza a caixa */
-    border-radius: 10px;  /* Bordas arredondadas */
-    position: relative; /* Necessário para qualquer manipulação de z-index */
+}
+
+/* Estilo para o título "CURSOS" */
+.oportunidade h2 {
+    color: #003c6a; /* Cor azul */
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* Estilo para a lista de cursos */
+.cursos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Estilo para cada curso */
+.curso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+}
+
+.curso img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.curso p {
+    color: #003c6a; /* Cor azul */
+    font-weight: bold;
 }
 
 
