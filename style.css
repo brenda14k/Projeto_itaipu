@@ -345,7 +345,7 @@ top: 185.5px;
 .container {
     display: flex;
     flex-wrap: wrap; /* Permite a quebra de linha das caixas */
-    gap: 20px; /* Espaço entre as caixas */
+    gap: 90px; /* Espaço entre as caixas */
     justify-content: center; /* Alinha as caixas no centro */
 }
 
