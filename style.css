@@ -321,7 +321,7 @@ top: 185.5px;
     text-align: center;
     font-size: 2rem;
     margin-top: 40px;
-    margin-left: 60px;
+    margin-left: 80px;
 }
 
 /* Caixa de Oportunidades */
@@ -360,26 +360,23 @@ top: 185.5px;
 }
 
 .curso {
-    display: flex; /* Define o layout flexível */
-    flex-direction: row; /* Alinha os itens na horizontal, lado a lado */
-    align-items: center; /* Alinha verticalmente os itens ao centro */
-    background-color: #fff;
-    padding: 20px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff; /* Cor branca para as caixas */
+    padding: 15px;
     border-radius: 10px;
-    width: 300px; /* A largura aumenta para acomodar imagem e texto lado a lado */
-    text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 15px; /* Adiciona espaço entre as caixas */
 }
 
 .curso img {
-    width: 80px; /* Tamanho da imagem */
-    height: 80px;
-    margin-right: 20px; /* Aumenta o espaço entre a imagem e o texto */
+    width: 60px; /* Ajuste do tamanho da imagem */
+    height: 60px;
+    margin-right: 15px;
 }
 
 .curso p {
-    color: #FAB518; /* Cor amarela */
+    color: #FAB518; /* Cor amarela do texto */
     font-weight: bold;
     font-size: 16px;
 }
