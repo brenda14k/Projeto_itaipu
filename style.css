@@ -337,7 +337,6 @@ top: 185.5px;
     flex-direction: column; /* Organiza as caixas uma embaixo da outra */
     gap: 15px; /* Espaço entre as caixas internas */
     margin-top: 30px; /* Espaço entre o título e a caixa amarela */
-    margin-bottom: 50px; /* Espaço entre a caixa amarela e o rodapé */
 }
 
 .container {
@@ -378,9 +377,6 @@ top: 185.5px;
     transition: all 0.3s ease;
 }
 
-.titulo-cursos h2 {
-    color: white; /* Cor branca para o título de "CURSOS" */
-}
 
 
 
