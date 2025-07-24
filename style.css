@@ -354,14 +354,14 @@ top: 185.5px;
     padding: 15px;
     border-radius: 32px; /* Arredondar mais as caixas brancas */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 268px; /* Largura da caixa branca */
-    height: 64px; /* Altura da caixa branca */
+    width: 222px; /* Largura da caixa branca */
+    height: 56px; /* Altura da caixa branca */
     margin-bottom: 10px; /* Espaço entre os cursos */
 }
 
 .curso img {
-    width: 60px; /* Ajuste do tamanho da imagem */
-    height: 60px;
+    width: 50px; /* Ajuste do tamanho da imagem */
+    height: 50px;
     margin-right: 15px;
 }
 
