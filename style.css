@@ -317,10 +317,9 @@ top: 185.5px;
 }
  
 
-
 .titulo {
     font-size: 32px;
-    color: #1C2D69; /* Cor azul escuro */
+    color: #fff; /* Cor branca para o título */
     text-align: center;
     margin-bottom: 20px; /* Espaço entre o título e a caixa amarela */
     margin-top: 30px; /* Espaço acima do título */
@@ -331,21 +330,20 @@ top: 185.5px;
     padding: 20px;
     border-radius: 10px;
     margin: 0 auto; /* Centraliza a caixa */
-    width: 311px;  /* Ajusta a largura da caixa */
-    height: 388px;  /* Ajusta a altura automaticamente */
+    width: 311px;  /* Largura da caixa amarela, conforme solicitado */
+    height: 388px;  /* Altura da caixa amarela, conforme solicitado */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     display: flex;
     flex-direction: column; /* Organiza as caixas uma embaixo da outra */
-    gap: 20px; /* Espaço entre as caixas internas */
-    margin-top: 20px; /* Espaço entre o título e a caixa amarela */
+    gap: 15px; /* Espaço entre as caixas internas */
+    margin-top: 30px; /* Espaço entre o título e a caixa amarela */
 }
 
 .container {
     display: flex;
-    flex-wrap: wrap; /* Permite a quebra de linha das caixas */
-    gap: 20px; /* Espaço entre as caixas */
+    flex-direction: column; /* Organiza os cursos verticalmente */
+    gap: 10px; /* Espaço entre os cursos (diminuído) */
     justify-content: center; /* Alinha as caixas no centro */
-    margin-bottom: 20px; /* Espaço entre a última caixa e a caixa amarela */
 }
 
 .curso {
@@ -356,8 +354,9 @@ top: 185.5px;
     padding: 15px;
     border-radius: 20px; /* Arredondar mais as caixas brancas */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 280px; /* Diminuir a largura da caixa dentro da caixa branca */
-    margin-left: 20px; /* Espaço entre as caixas brancas e a caixa amarela */
+    width: 250px; /* Diminuir a largura da caixa dentro da caixa branca */
+    height: auto;  /* Ajusta a altura automaticamente ao conteúdo */
+    margin-bottom: 10px; /* Espaço entre os cursos */
 }
 
 .curso img {
@@ -377,6 +376,7 @@ top: 185.5px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
     transition: all 0.3s ease;
 }
+
 
 
 
