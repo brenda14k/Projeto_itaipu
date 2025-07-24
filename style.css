@@ -319,7 +319,7 @@ top: 185.5px;
 
 .titulo {
     font-size: 32px;
-    color: #1C2D69; /* Cor original azul escuro para o título "Oportunidades" */
+    color: #fff; /* Cor branca para o título */
     text-align: center;
     margin-bottom: 20px; /* Espaço entre o título e a caixa amarela */
     margin-top: 30px; /* Espaço acima do título */
@@ -367,7 +367,7 @@ top: 185.5px;
 }
 
 .curso p {
-    color: #fff; /* Cor branca para o texto dentro das caixas de curso */
+    color: #FAB518; /* Cor amarela do texto */
     font-weight: bold;
     font-size: 16px;
 }
@@ -378,9 +378,10 @@ top: 185.5px;
     transition: all 0.3s ease;
 }
 
-h2 {
-    color: #1C2D69; /* Cor original para o título "CURSOS" */
+.titulo-cursos h2 {
+    color: white; /* Cor branca para o título de "CURSOS" */
 }
+
 
 
 
