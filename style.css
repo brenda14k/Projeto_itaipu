@@ -338,6 +338,7 @@ top: 185.5px;
     display: flex;
     flex-direction: column; /* Organiza as caixas uma embaixo da outra */
     gap: 20px; /* Espaço entre as caixas */
+    margin-top: 20px;
 }
 
 .titulo-cursos {
@@ -355,6 +356,7 @@ top: 185.5px;
 
 /* Estilo para cada curso */
 .container {
+    gap: 20px;
     display: flex;
     flex-wrap: wrap; /* Permite a quebra de linha das caixas */
     gap: 20px; /* Espaço entre as caixas */
