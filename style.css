@@ -330,8 +330,8 @@ top: 185.5px;
     padding: 20px;
     border-radius: 10px;
     margin: 0 auto; /* Centraliza a caixa */
-    width: 311px;  /* Largura da caixa amarela, conforme solicitado */
-    height: 388px;  /* Altura da caixa amarela, conforme solicitado */
+    width: 311px;  /* Largura da caixa amarela */
+    height: 388px;  /* Altura da caixa amarela */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     display: flex;
     flex-direction: column; /* Organiza as caixas uma embaixo da outra */
@@ -352,10 +352,10 @@ top: 185.5px;
     align-items: center;
     background-color: #fff; /* Cor branca para as caixas */
     padding: 15px;
-    border-radius: 20px; /* Arredondar mais as caixas brancas */
+    border-radius: 32px; /* Arredondar mais as caixas brancas */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 250px; /* Diminuir a largura da caixa dentro da caixa branca */
-    height: auto;  /* Ajusta a altura automaticamente ao conteúdo */
+    width: 268px; /* Largura da caixa branca */
+    height: 64px; /* Altura da caixa branca */
     margin-bottom: 10px; /* Espaço entre os cursos */
 }
 
