@@ -338,7 +338,8 @@ top: 185.5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     display: flex;
     flex-direction: column; /* Organiza as caixas uma embaixo da outra */
-    gap: 20px; /* Espaço entre as caixas internas */
+    gap: 60px; /* Espaço entre as caixas internas */
+    margin-top: 90px;
 }
 
 .container {
