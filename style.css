@@ -315,14 +315,12 @@ top: 185.5px;
 
     
 }
- 
 .titulo {
     margin-top: 60px;
     font-size: 32px;
     color: #1C2D69; /* Cor azul escuro */
     text-align: center;
     margin-bottom: 60px; /* Espaço entre o título e a caixa amarela */
-    margin-left: 80px; /* Mover o título mais para a esquerda */
 }
 
 .oportunidades {
@@ -330,8 +328,8 @@ top: 185.5px;
     padding: 20px;
     border-radius: 10px;
     margin: 0 auto; /* Centraliza a caixa */
-    width: 311px;  /* Largura da caixa amarela */
-    height: 388px;  /* Altura da caixa amarela */
+    width: 311px;  /* Ajusta a largura da caixa */
+    height: auto;  /* Deixa a altura ajustável ao conteúdo */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     display: flex;
     flex-direction: column; /* Organiza as caixas uma embaixo da outra */
@@ -352,21 +350,21 @@ top: 185.5px;
     align-items: center;
     background-color: #fff; /* Cor branca para as caixas */
     padding: 15px;
-    border-radius: 20px; /* Mais arredondado */
+    border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 268px; /* Largura da caixa branca */
     height: 64px; /* Altura da caixa branca */
-    margin-bottom: 10px; /* Espaço entre as caixas brancas */
+    margin-left: 20px; /* Adiciona espaço entre as caixas brancas e a caixa amarela */
 }
 
 .curso img {
-    width: 50px; /* Ajuste do tamanho da imagem */
-    height: 50px;
+    width: 60px; /* Ajuste do tamanho da imagem */
+    height: 60px;
     margin-right: 15px;
 }
 
 .curso p {
-    color: #fff; /* Cor branca para o texto dentro das caixas de curso */
+    color: #FAB518; /* Cor amarela do texto */
     font-weight: bold;
     font-size: 16px;
 }
