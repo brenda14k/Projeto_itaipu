@@ -326,6 +326,7 @@ top: 185.5px;
 }
 
 .oportunidades {
+    color:#fff;
     background-color: #FAB518; /* Cor de fundo amarela da seção */
     padding: 20px;
     border-radius: 10px;
@@ -345,7 +346,7 @@ top: 185.5px;
     gap: 10px; /* Espaço entre os cursos (diminuído) */
     justify-content: center; /* Alinha as caixas no centro */
 }
-
+/*
 .curso {
     display: flex; 
     flex-direction: row; /* Alinha a imagem e o texto na horizontal */
