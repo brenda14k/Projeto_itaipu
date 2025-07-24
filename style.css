@@ -325,15 +325,18 @@ top: 185.5px;
 }
 
 /* Caixa de Oportunidades */
+
+
 .oportunidades {
     background-color: #FAB518; 
     padding: 20px;
     border-radius: 10px;
     margin: 20px auto; /* Centraliza a caixa */
-     width: 311px;  
-    height: 388px;
+    width: 311px; /* Ajusta a largura para 311px */
+    height: 388px; /* Ajusta a altura para 388px */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    margin-left: 20px;
 }
-
 
 .titulo-cursos {
     color: white; /* Cor branca */
