@@ -342,12 +342,12 @@ top: 185.5px;
     margin-top: 90px;
 }
 
-.container {
+/*.container {
     display: flex;
     flex-wrap: wrap; /* Permite a quebra de linha das caixas */
     gap: 90px; /* Espaço entre as caixas */
     justify-content: center; /* Alinha as caixas no centro */
-}
+}*/
 
 .curso {
     display: flex; 
