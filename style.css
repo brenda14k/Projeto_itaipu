@@ -316,13 +316,7 @@ top: 185.5px;
     
 }
  
-.container {
-    gap: 20px;
-    display: flex;
-    flex-wrap: wrap; /* Permite a quebra de linha das caixas */
-    gap: 20px; /* Espaço entre as caixas */
-    justify-content: center; /* Alinha as caixas no centro */
-}
+
 
 
 .titulo {
@@ -346,6 +340,15 @@ top: 185.5px;
 }
 
 /* Estilo das caixas internas */
+
+.container {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Permite a quebra de linha das caixas */
+    gap: 20px; /* Espaço entre as caixas */
+    justify-content: center; /* Alinha as caixas no centro */
+}
+
 .curso {
     display: flex; 
     flex-direction: row; /* Alinha a imagem e o texto na horizontal */
