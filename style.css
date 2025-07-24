@@ -366,12 +366,13 @@ top: 185.5px;
     width: 300px; /* A largura aumenta para acomodar imagem e texto lado a lado */
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px; /* Adiciona espaço entre as caixas */
 }
 
 .curso img {
     width: 80px; /* Tamanho da imagem */
     height: 80px;
-    margin-right: 10px; /* Espaço entre a imagem e o texto */
+    margin-right: 20px; /* Aumenta o espaço entre a imagem e o texto */
 }
 
 .curso p {
@@ -381,11 +382,10 @@ top: 185.5px;
 }
 
 .curso:hover {
-  transform: scale(1.05); /* Aumenta ligeiramente o tamanho da caixa */
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho da caixa */
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
     transition: all 0.3s ease;
 }
-
 
 
 
