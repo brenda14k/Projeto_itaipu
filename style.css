@@ -315,20 +315,21 @@ top: 185.5px;
 
     
 }
-
+/* Estilo para o título "Oportunidades" */
 .titulo {
     margin-top: 60px;
     font-size: 32px;
     color: #1C2D69; /* Cor azul escuro para o título "Oportunidades" */
     text-align: center;
     margin-bottom: 20px; /* Espaço entre o título e a caixa amarela */
-    margin-left: 0px; /* Mover o título mais para a esquerda */
+    margin-left: 20px; /* Move o título "Oportunidades" mais para a esquerda */
 }
 
+/* Estilo da caixa amarela */
 .oportunidades {
     background-color: #FAB518; /* Cor de fundo amarela da seção */
     padding: 20px;
-    border-radius: 20px; /* Mais arredondada para a caixa amarela */
+    border-radius: 20px; /* Bordas mais arredondadas para a caixa amarela */
     margin: 0 auto; /* Centraliza a caixa */
     width: 311px;  /* Ajusta a largura da caixa */
     height: auto;  /* Deixa a altura ajustável ao conteúdo */
@@ -337,9 +338,24 @@ top: 185.5px;
     flex-direction: column; /* Organiza as caixas uma embaixo da outra */
     margin-top: 10px; /* Diminuir o espaço entre o título e a caixa amarela */
     margin-bottom: 60px; /* Espaço entre a caixa amarela e o rodapé */
-    margin-left: 20px; /* Move a caixa amarela para a esquerda */
+    margin-left: 0px; /* Move a caixa amarela para a esquerda */
+    position: relative; /* Permite o posicionamento absoluto do título "CURSOS" */
 }
 
+/* Alinhamento do título "CURSOS" dentro da caixa amarela */
+.oportunidades h2 {
+    color: #fff; /* Cor branca para o título "CURSOS" */
+    font-size: 28px;
+    text-align: center; /* Centraliza o título "CURSOS" */
+    margin-top: 0; /* Remove qualquer margem superior */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+    position: absolute; /* Permite posicionamento absoluto dentro da caixa amarela */
+    top: 10px; /* Alinha o título um pouco abaixo do topo */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Centraliza corretamente no meio */
+}
+
+/* Estilo para o contêiner dos cursos */
 .container {
     display: flex;
     flex-direction: column; /* Organiza os cursos verticalmente */
@@ -347,6 +363,7 @@ top: 185.5px;
     justify-content: center; /* Alinha as caixas no centro */
 }
 
+/* Estilo das caixas de curso */
 .curso {
     display: flex; 
     flex-direction: row; /* Alinha a imagem e o texto na horizontal */
@@ -360,24 +377,26 @@ top: 185.5px;
     margin-bottom: 10px; /* Espaço entre as caixas brancas */
 }
 
+/* Estilo para as imagens dentro das caixas de curso */
 .curso img {
     width: 50px; /* Ajuste do tamanho da imagem */
     height: 50px;
     margin-right: 15px;
 }
 
+/* Estilo do texto dentro das caixas de curso */
 .curso p {
-    color: ##FAB518; /* Cor branca para o texto dentro das caixas de curso */
+    color: #FAB518; /* Cor amarela para o texto dentro das caixas de curso */
     font-weight: bold;
     font-size: 16px;
 }
 
+/* Efeito de hover para as caixas de curso */
 .curso:hover {
     transform: scale(1.05); /* Aumenta ligeiramente o tamanho da caixa */
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
     transition: all 0.3s ease;
 }
-
 
 
 
