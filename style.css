@@ -315,48 +315,7 @@ top: 185.5px;
 
     
 }
-/* Título principal "Oportunidades" 
-.titulo {
-    color: #003c6a;
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 40px;
-    margin-left: 30px;
-}
-*/
-
-/* 
-
-
-.oportunidades {
-    background-color: #FAB518; /* Cor de fundo amarela da seção */
-    padding: 20px;
-    border-radius: 10px;
-    margin: 20px auto; /* Centraliza a caixa */
-    width: 311px;  /* Ajusta a largura da caixa */
-    height: auto;  /* Ajusta a altura automaticamente */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    display: flex;
-    flex-direction: column; /* Organiza as caixas uma embaixo da outra */
-    gap: 20px; /* Espaço entre as caixas */
-    margin-top: 20px;
-}
-*/
-/*
-.titulo-cursos {
-    color: white; /* Cor branca */
-    font-size: 1.5rem;
-    text-align: center;
-}
-*/
-/* Estilo para a lista de cursos 
-.cursos {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-/* 
+ 
 .container {
     gap: 20px;
     display: flex;
@@ -364,41 +323,9 @@ top: 185.5px;
     gap: 20px; /* Espaço entre as caixas */
     justify-content: center; /* Alinha as caixas no centro */
 }
-*/
-/*
-.curso {
-    display: flex; 
-    flex-direction: row;
-    align-items: center;
-    background-color: #fff; /* Cor branca para as caixas */
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-*/
-/*
-.curso img {
-    width: 60px; /* Ajuste do tamanho da imagem */
-    height: 60px;
-    margin-right: 15px;
-}
-*/
-/*
-.curso p {
-    color: #FAB518; /* Cor amarela do texto */
-    font-weight: bold;
-    font-size: 16px;
-}
-*/
-/*
-.curso:hover {
-    transform: scale(1.05); /* Aumenta ligeiramente o tamanho da caixa */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
-    transition: all 0.3s ease;
-}
 
 
-*/.titulo {
+.titulo {
     font-size: 32px;
     color: #1C2D69; /* Cor azul escuro */
     text-align: center;
@@ -440,6 +367,10 @@ top: 185.5px;
     font-weight: bold;
     font-size: 16px;
 }
-
+.curso:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho da caixa */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
+    transition: all 0.3s ease;
+}
 
 
