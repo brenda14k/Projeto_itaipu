@@ -319,12 +319,13 @@ top: 185.5px;
 
 /* Estilo para o título "Oportunidades" */
 .titulo {
+        margin-left: 60px;
     margin-top: 60px;
     font-size: 32px;
     color: #1C2D69; /* Cor azul escuro */
     text-align: center;
     margin-bottom: 20px; /* Espaço entre o título e a caixa amarela */
-    margin-left: 30px; /* Move o título "Oportunidades" mais para a esquerda */
+
 }
 
 /* Estilo para a caixa amarela */
@@ -358,7 +359,7 @@ top: 185.5px;
     align-items: center;
     background-color: #fff; /* Cor branca para as caixas */
     padding: 15px;
-    border-radius: 30px; /* Mais arredondada para as caixas brancas */
+    border-radius: 60px; /* Mais arredondada para as caixas brancas */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 268px; /* Largura da caixa branca */
     height: 64px; /* Altura da caixa branca */
