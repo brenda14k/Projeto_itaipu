@@ -328,14 +328,16 @@ top: 185.5px;
 
 
 .oportunidades {
-    background-color: #FAB518; 
+    background-color: #FAB518; /* Cor de fundo amarela da seção */
     padding: 20px;
     border-radius: 10px;
     margin: 20px auto; /* Centraliza a caixa */
-    width: 311px; /* Ajusta a largura para 311px */
-    height: 388px; /* Ajusta a altura para 388px */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
-    margin-left: 20px;
+    width: 311px;  /* Ajusta a largura da caixa */
+    height: auto;  /* Ajusta a altura automaticamente */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    display: flex;
+    flex-direction: column; /* Organiza as caixas uma embaixo da outra */
+    gap: 20px; /* Espaço entre as caixas */
 }
 
 .titulo-cursos {
