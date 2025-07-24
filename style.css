@@ -324,7 +324,7 @@ top: 185.5px;
     font-size: 32px;
     color: #1C2D69; /* Cor azul escuro */
     text-align: center;
-    margin-bottom: 60px; /* Espaço entre o título e a caixa amarela */
+  /*  margin-bottom: 60px;*/ /* Espaço entre o título e a caixa amarela */
 }
 
 
@@ -338,8 +338,9 @@ top: 185.5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     display: flex;
     flex-direction: column; /* Organiza as caixas uma embaixo da outra */
-    gap: 60px; /* Espaço entre as caixas internas */
+ 
     margin-top: 90px;
+    margin-bottom: 60px;
 }
 
 /*.container {
