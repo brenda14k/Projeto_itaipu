@@ -320,27 +320,26 @@ top: 185.5px;
 
 
 .titulo {
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 32px;
     color: #1C2D69; /* Cor azul escuro */
     text-align: center;
-    margin-bottom: 50px; /* Espaço entre o título e a caixa amarela */
+    margin-bottom: 60px; /* Espaço entre o título e a caixa amarela */
 }
+
 
 .oportunidades {
     background-color: #FAB518; /* Cor de fundo amarela da seção */
     padding: 20px;
     border-radius: 10px;
     margin: 0 auto; /* Centraliza a caixa */
-    width: 311px;  /* Ajusta a largura da caixa */
-    height: 388px;  /* Ajusta a altura automaticamente */
+    width: 60px;  /* Ajusta a largura da caixa para o mesmo tamanho da imagem */
+    height: 60px;  /* Ajusta a altura da caixa para o mesmo tamanho da imagem */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     display: flex;
     flex-direction: column; /* Organiza as caixas uma embaixo da outra */
     gap: 20px; /* Espaço entre as caixas internas */
 }
-
-/* Estilo das caixas internas */
 
 .container {
     display: flex;
@@ -357,6 +356,7 @@ top: 185.5px;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px; /* Adiciona espaço entre as caixas brancas e a caixa amarela */
 }
 
 .curso img {
