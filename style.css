@@ -320,10 +320,11 @@ top: 185.5px;
 
 
 .titulo {
+    margin-top: 40px;
     font-size: 32px;
     color: #1C2D69; /* Cor azul escuro */
     text-align: center;
-    margin-bottom: 30px; /* Espaço entre o título e a caixa amarela */
+    margin-bottom: 50px; /* Espaço entre o título e a caixa amarela */
 }
 
 .oportunidades {
