@@ -357,16 +357,27 @@ top: 185.5px;
 }
 
 .curso {
-    display: flex;
-    flex-direction: column; /* Organiza imagem e texto na coluna */
-    align-items: center;
+    display: flex; /* Define o layout flexível */
+    flex-direction: row; /* Alinha os itens na horizontal, lado a lado */
+    align-items: center; /* Alinha verticalmente os itens ao centro */
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    width: 200px;
+    width: 300px; /* A largura aumenta para acomodar imagem e texto lado a lado */
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease; /* Transição suave */
+}
+
+.curso img {
+    width: 80px; /* Tamanho da imagem */
+    height: 80px;
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+}
+
+.curso p {
+    color: #FAB518; /* Cor amarela */
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .curso:hover {
@@ -375,18 +386,7 @@ top: 185.5px;
     transition: all 0.3s ease;
 }
 
-.curso img {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 10px;
-}
 
-.curso p {
-    color: #FAB518;
-    font-weight: bold;
-    font-size: 16px;
-    margin-top: 10px;
-}
 
 
 
