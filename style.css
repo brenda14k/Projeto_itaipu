@@ -318,37 +318,35 @@ top: 185.5px;
  
 
 
-
 .titulo {
-    margin-top: 60px;
     font-size: 32px;
     color: #1C2D69; /* Cor azul escuro */
     text-align: center;
-  /*  margin-bottom: 60px;*/ /* Espaço entre o título e a caixa amarela */
+    margin-bottom: 20px; /* Espaço entre o título e a caixa amarela */
+    margin-top: 30px; /* Espaço acima do título */
 }
-
 
 .oportunidades {
     background-color: #FAB518; /* Cor de fundo amarela da seção */
     padding: 20px;
     border-radius: 10px;
     margin: 0 auto; /* Centraliza a caixa */
-    width: 60px;  /* Ajusta a largura da caixa para o mesmo tamanho da imagem */
-    height: 60px;  /* Ajusta a altura da caixa para o mesmo tamanho da imagem */
+    width: 311px;  /* Ajusta a largura da caixa */
+    height: 388px;  /* Ajusta a altura automaticamente */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     display: flex;
     flex-direction: column; /* Organiza as caixas uma embaixo da outra */
- 
-    margin-top: 90px;
-    margin-bottom: 60px;
+    gap: 20px; /* Espaço entre as caixas internas */
+    margin-top: 20px; /* Espaço entre o título e a caixa amarela */
 }
 
-/*.container {
+.container {
     display: flex;
     flex-wrap: wrap; /* Permite a quebra de linha das caixas */
-    gap: 90px; /* Espaço entre as caixas */
+    gap: 20px; /* Espaço entre as caixas */
     justify-content: center; /* Alinha as caixas no centro */
-}*/
+    margin-bottom: 20px; /* Espaço entre a última caixa e a caixa amarela */
+}
 
 .curso {
     display: flex; 
@@ -356,9 +354,10 @@ top: 185.5px;
     align-items: center;
     background-color: #fff; /* Cor branca para as caixas */
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 20px; /* Arredondar mais as caixas brancas */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-left: 20px; /* Adiciona espaço entre as caixas brancas e a caixa amarela */
+    width: 280px; /* Diminuir a largura da caixa dentro da caixa branca */
+    margin-left: 20px; /* Espaço entre as caixas brancas e a caixa amarela */
 }
 
 .curso img {
