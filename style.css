@@ -317,7 +317,7 @@ top: 185.5px;
 }
 /* Título principal "Oportunidades" */
 .titulo {
-    color: #003c6a; /* Azul */
+    color: #003c6a;
     text-align: center;
     font-size: 2rem;
     margin-top: 40px;
@@ -326,12 +326,12 @@ top: 185.5px;
 
 /* Caixa de Oportunidades */
 .oportunidades {
-    background-color: #FAB518; /* Fundo amarelo */
+    background-color: #FAB518; 
     padding: 20px;
-    border-radius: 10px; /* Bordas arredondadas */
+    border-radius: 10px;
     margin: 20px auto; /* Centraliza a caixa */
-     width: 200px;  /* Alteração: Largura da caixa amarela */
-    height: 386px;
+     width: 279px;  
+    height: 301px;
 }
 
 
@@ -349,28 +349,45 @@ top: 185.5px;
 }
 
 /* Estilo para cada curso */
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite a quebra de linha das caixas */
+    gap: 20px; /* Espaço entre as caixas */
+    justify-content: center; /* Alinha as caixas no centro */
+}
+
 .curso {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Organiza imagem e texto na coluna */
     align-items: center;
-    background-color: #fff; /* Fundo branco */
+    background-color: #fff;
     padding: 20px;
-    border-radius: 10px; /* Bordas arredondadas */
+    border-radius: 10px;
     width: 200px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+.curso:hover {
+  transform: scale(1.05); /* Aumenta ligeiramente o tamanho da caixa */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
+    transition: all 0.3s ease;
 }
 
 .curso img {
-    width: 80px; /* Ajusta o tamanho das imagens */
+    width: 80px;
     height: 80px;
     margin-bottom: 10px;
 }
 
 .curso p {
-    color: #FAB518; /* Cor amarela (cor da caixa) */
+    color: #FAB518;
     font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
 }
+
 
 
 
