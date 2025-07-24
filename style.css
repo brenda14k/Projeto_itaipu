@@ -317,27 +317,30 @@ top: 185.5px;
 }
  
 
-.titulo {
+
+
+/*.titulo {
+    margin-top: 60px;
     font-size: 32px;
-    color: #fff; /* Cor branca para o título */
+    color: #1C2D69; /* Cor azul escuro */
     text-align: center;
-    margin-bottom: 20px; /* Espaço entre o título e a caixa amarela */
-    margin-top: 30px; /* Espaço acima do título */
+    margin-bottom: 60px;
 }
 
+
 .oportunidades {
-    color:#fff;
     background-color: #FAB518; /* Cor de fundo amarela da seção */
     padding: 20px;
     border-radius: 10px;
     margin: 0 auto; /* Centraliza a caixa */
-    width: 311px;  /* Largura da caixa amarela */
-    height: 388px;  /* Altura da caixa amarela */
+    width: 60px;  /* Ajusta a largura da caixa para o mesmo tamanho da imagem */
+    height: 60px;  /* Ajusta a altura da caixa para o mesmo tamanho da imagem */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     display: flex;
     flex-direction: column; /* Organiza as caixas uma embaixo da outra */
-    gap: 15px; /* Espaço entre as caixas internas */
-    margin-top: 30px; /* Espaço entre o título e a caixa amarela */
+ 
+    margin-top: 90px;
+    margin-bottom: 60px;
 }
 
 .container {
