@@ -332,7 +332,7 @@ top: 185.5px;
     border-radius: 10px;
     margin: 0 auto; /* Centraliza a caixa */
     width: 311px;  /* Ajusta a largura da caixa */
-    height: auto;  /* Ajusta a altura automaticamente */
+    height: 388px;  /* Ajusta a altura automaticamente */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     display: flex;
     flex-direction: column; /* Organiza as caixas uma embaixo da outra */
@@ -342,7 +342,6 @@ top: 185.5px;
 /* Estilo das caixas internas */
 
 .container {
-    gap: 20px;
     display: flex;
     flex-wrap: wrap; /* Permite a quebra de linha das caixas */
     gap: 20px; /* Espaço entre as caixas */
@@ -370,10 +369,12 @@ top: 185.5px;
     font-weight: bold;
     font-size: 16px;
 }
+
 .curso:hover {
     transform: scale(1.05); /* Aumenta ligeiramente o tamanho da caixa */
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
     transition: all 0.3s ease;
 }
+
 
 
