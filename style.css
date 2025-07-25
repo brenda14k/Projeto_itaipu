@@ -330,6 +330,8 @@ top: 185.5px;
   text-align: right;
   margin-top: 60px;
   margin-bottom: 20px;
+    margin-left: 80px;
+    
 }
 
 .oportunidades {
@@ -350,7 +352,7 @@ top: 185.5px;
   align-items: center;
   background-color: #fff;
   padding: 15px;
-  border-radius: 30px; /* MAIS arredondado */
+  border-radius: 10px; /* MAIS arredondado */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 100%;
   transition: all 0.3s ease;
