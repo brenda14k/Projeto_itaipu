@@ -224,29 +224,31 @@
 
     /* COMPETENCIAS */
 
- .competencias {
-    
-        display: flex;
-        gap: 20px;
-        flex-wrap: wrap;
-       background-color: #9b9b9b;
-    }
+/* ALINHAMENTO DAS COMPETÊNCIAS */
+.competencias {
+  display: flex;
+  gap: 20px; /* Espaço entre as caixas */
+  flex-wrap: wrap; /* Permite que as caixas se ajustem */
+  justify-content: space-between; /* Garante que as caixas se distribuam uniformemente */
+  background-color: #9b9b9b;
+  margin-bottom: 40px; /* Espaço abaixo da seção de competências */
+}
 
-    .competencias .competencia {
-        flex: 0 1 32%;
-        position: relative;
-          background-color: #9b9b9b;
-    }
+.competencias .competencia {
+  flex: 0 1 32%; /* Garantir que as caixas ocupem 32% da largura do contêiner */
+  position: relative;
+  background-color: #9b9b9b;
+  margin-bottom: 20px; /* Espaçamento entre as linhas, se houver */
+  border-radius: 15px; /* Borda arredondada */
+}
 
-    .competencias .competencia  img {
-        padding: 20px;
-        width: 100;
-          border-radius: 15px;/*novo*/
-       
-    }
-    
- 
-    .competencias p {
+.competencias .competencia img {
+  padding: 20px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.competencias p {
   width: 280px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
@@ -260,6 +262,7 @@
   z-index: 10;
   position: absolute;
 }
+
 .comp_1 {
 top: 185.5px;
   left: 84px;
