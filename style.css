@@ -400,7 +400,7 @@ top: 185.5px;
   margin-top: 0; /* Ajuste do topo */
   margin-bottom: 10px; /* Ajuste do espaço abaixo */
   padding-left: 10px; /* Adicionando o espaçamento entre o texto e a borda */
-    text-transforme:uppercase;/*transforma todas as letras em maiusculsa*/
+    text-transform: uppercase;
 }
 
 
