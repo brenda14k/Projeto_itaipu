@@ -335,7 +335,7 @@ top: 185.5px;
   margin-top: 60px;
   margin-bottom: 20px;
   margin-left: 0px;
-  font-weight: 900px;
+  font-weight: 900;
 }
 
 .oportunidades {
@@ -396,10 +396,11 @@ top: 185.5px;
     font-family: 'Ubuntu', sans-serif;
   text-align: center; /* Alinhando o texto "CURSOS" ao centro */
   font-size: 35px;  /* Ajustando o tamanho da fonte para corresponder à imagem */
-  font-weight: 800px; /* Font-weight em negrito */
+  font-weight: 800; /* Font-weight em negrito */
   margin-top: 0; /* Ajuste do topo */
   margin-bottom: 10px; /* Ajuste do espaço abaixo */
   padding-left: 10px; /* Adicionando o espaçamento entre o texto e a borda */
+    text-transforme:uppercase;/*transforma todas as letras em maiusculsa*/
 }
 
 
