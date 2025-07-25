@@ -336,19 +336,22 @@ top: 185.5px;
 
 
 .oportunidades {
-    background-color: #FAB518; /* Cor de fundo amarela da seção */
+    background-color: #FAB518;
     padding: 20px;
     border-radius: 10px;
-    margin: 0 auto; /* Centraliza a caixa */
-    width: 311px;  /* Ajusta a largura da caixa */
-    height: 388px;  /* Deixa a altura ajustável ao conteúdo */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 311px;
+    height: 388px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     display: flex;
-    flex-direction: column; /* Organiza as caixas uma embaixo da outra */
-    margin-top: 20px; /* Ajustado para garantir que fique logo abaixo do título */
-    margin-bottom: 60px; /* Espaço entre a caixa amarela e o rodapé */
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 60px;
     gap: 25px;
+
+    
+    margin-left: 0px; /* ou outro valor, ex: 40px, 60px etc. */
 }
+
 
 
 .curso {
@@ -374,9 +377,7 @@ top: 185.5px;
     color: #FAB518; /* Cor amarela do texto */
     font-weight: bold;
     font-size: 16px;
-    white-space: nowrap; /* Impede quebra de linha */
-    overflow: hidden; /* Esconde o texto excedente */
-    text-overflow: ellipsis; /* Adiciona
+
 }
 
 .curso:hover {
