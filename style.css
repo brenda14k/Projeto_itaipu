@@ -19,10 +19,7 @@
     width: 1310px;
     height: 100%;
     margin: 0 auto;
-   /* display: flex;*/
-   /* flex-direction: column; /* Organiza os cursos verticalmente */
-   /* gap: 20px; /* Espaço entre os cursos */
-  /*  justify-content: center;*/ /* 
+
 
     /* border: solid #000 1px ; */
 }
@@ -320,6 +317,13 @@ top: 185.5px;
     
 }
 
+
+.oportunidades-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
 
 .titulo {
     margin-top: 60px;
