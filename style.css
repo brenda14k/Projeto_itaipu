@@ -407,8 +407,8 @@ top: 185.5px;
 
 .texto-sustentavel {
   display: flex;
-  flex-direction: column; /* Organizando os textos em coluna */
-  align-items: flex-start;
+  flex-direction: row; /* Organizando o texto e a imagem lado a lado */
+  align-items: center;
   margin-top: 10px; /* Adicionando espaço superior */
 }
 
@@ -427,6 +427,7 @@ top: 185.5px;
   color: #00315e; /* Garantindo que a palavra "Sustentável" tenha uma cor visível */
   text-align: left; /* Garantindo que o texto "Sustentável" fique alinhado à esquerda */
 }
+
 
 
 
