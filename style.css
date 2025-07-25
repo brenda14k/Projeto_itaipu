@@ -383,7 +383,7 @@ top: 185.5px;
 .curso p {
   color: #FAB518;  /* Garantindo que o texto seja amarelo */
   font-weight: bold;
-  font-size: 16px;
+  font-size: 17px;
   margin: 0;
   white-space: normal; /* Permitir que o texto quebre para a próxima linha */
   overflow: visible; /* Removendo a quebra de texto */
@@ -394,8 +394,8 @@ top: 185.5px;
 .oportunidades .titulo-cursos {
    color: #fff;
     font-family: 'Ubuntu', sans-serif;
-  text-align: center; /* Alinhando o texto "CURSOS" ao centro */
-  font-size: 35px;  /* Ajustando o tamanho da fonte para corresponder à imagem */
+
+  font-size: 30px;  /* Ajustando o tamanho da fonte para corresponder à imagem */
   font-weight: 800; /* Font-weight em negrito */
   margin-top: 0; /* Ajuste do topo */
   margin-bottom: 10px; /* Ajuste do espaço abaixo */
