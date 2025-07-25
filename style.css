@@ -316,61 +316,63 @@ top: 185.5px;
 
     
 }
+
 .oportunidades-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; /* Alinha à direita */
-    padding-right: 50px; /* Espaço da margem direita */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 50px;
 }
 
 .titulo {
-    font-size: 32px;
-    color: #1C2D69;
-    text-align: right;
-    margin-top: 60px;
-    margin-bottom: 20px;
+  font-size: 32px;
+  color: #1C2D69;
+  text-align: right;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .oportunidades {
-    background-color: #FAB518;
-    padding: 20px;
-    border-radius: 15px;
-    width: 311px;
-    min-height: 388px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin-bottom: 60px;
+  background-color: #FAB518;
+  padding: 25px;
+  border-radius: 15px;
+  width: 311px;
+  min-height: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espaço entre caixas */
+  margin-bottom: 60px;
 }
 
 .curso {
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 25px; /* Mais arredondado */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    transition: all 0.3s ease;
-}
-
-.curso img {
-    width: 50px;
-    height: 50px;
-    margin-right: 15px;
-}
-
-.curso p {
-    color: #FAB518;
-    font-weight: bold;
-    font-size: 16px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 30px; /* MAIS arredondado */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  transition: all 0.3s ease;
 }
 
 .curso:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.curso img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.curso p {
+  color: #FAB518;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
