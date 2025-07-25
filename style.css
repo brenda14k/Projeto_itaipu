@@ -322,7 +322,7 @@ top: 185.5px;
   flex-direction: column;
   align-items: flex-start;  /* Alinhando tudo à esquerda */
   padding-right: 50px;
-  padding-left: 100px; /* Ajustando o alinhamento à esquerda */
+  padding-left: 10px; /* Ajustando o alinhamento à esquerda */
 }
 
 .titulo {
@@ -332,6 +332,7 @@ top: 185.5px;
   margin-top: 60px;
   margin-bottom: 20px;
   margin-left: 0; /* Ajustando para mais à esquerda */
+ padding-left: 10px;
 }
 
 .oportunidades {
