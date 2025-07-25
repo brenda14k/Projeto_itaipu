@@ -331,14 +331,14 @@ top: 185.5px;
   text-align: left;  /* Alinhando o título à esquerda */
   margin-top: 60px;
   margin-bottom: 20px;
-    margin-left:-20px;
+    margin-left: 0px;
 
 
 }
 
 .oportunidades {
   background-color: #FAB518;
-  padding: 25px;
+
   border-radius: 15px;
   width: 305px; /* Largura igual à mostrada na foto */
   height: 384px; /* Ajuste da altura */
@@ -347,7 +347,7 @@ top: 185.5px;
   flex-direction: column;
   gap: 20px; /* Espaçamento entre as caixas brancas */
   margin-bottom: 60px;
-  margin-left: -20px; /* Movendo mais para a esquerda */
+  margin-left: 0px; /* Movendo mais para a esquerda */
 }
 
 .curso {
