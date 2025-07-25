@@ -19,10 +19,10 @@
     width: 1310px;
     height: 100%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column; /* Organiza os cursos verticalmente */
-    gap: 20px; /* Espaço entre os cursos */
-    justify-content: center; /* 
+   /* display: flex;*/
+   /* flex-direction: column; /* Organiza os cursos verticalmente */
+   /* gap: 20px; /* Espaço entre os cursos */
+  /*  justify-content: center;*/ /* 
 
     /* border: solid #000 1px ; */
 }
