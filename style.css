@@ -334,6 +334,7 @@ top: 185.5px;
   margin-top: 60px;
   margin-bottom: 20px;
   margin-left: 0px;
+      font-weight: bold;
 }
 
 .oportunidades {
@@ -384,7 +385,6 @@ top: 185.5px;
   text-overflow: clip; /* Removendo o ellipsis */
 }
 
-/* Ajustando a posição do texto da escola para alinhar melhor com a imagem */
 .oportunidades .titulo-cursos {
   color: #fff;
   text-align: left; /* Alinhando o texto à esquerda */
@@ -392,9 +392,8 @@ top: 185.5px;
   font-size: 18px; /* Ajustando o tamanho da fonte para melhor visibilidade */
   font-weight: normal; /* Deixando o texto em peso normal */
   line-height: 1.2; /* Ajustando a altura da linha para melhor legibilidade */
+    font-weight: bold;
+      margin-left: 10px;
 }
 
-.oportunidades .curso p {
-  margin-left: 10px; /* Movendo a palavra "Cursos" mais para a esquerda */
-}
 
