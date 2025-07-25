@@ -331,8 +331,8 @@ top: 185.5px;
   text-align: left;  /* Alinhando o título à esquerda */
   margin-top: 60px;
   margin-bottom: 20px;
-  margin-left: 0; /* Ajustando para mais à esquerda */
- padding-left: 200px;
+  margin-left: -20px; /* Ajustando para mais à esquerda */
+
 }
 
 .oportunidades {
