@@ -360,6 +360,8 @@ top: 185.5px;
   border-radius: 40px; /* Arredondamento aumentado */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 100%;  /* Largura completa da caixa de oportunidade */
+     width: calc(306px - 20px); /* Subtrai 20px da largura original para diminuir um pouco */
+
   height: 80px;  /* Aumentando a altura da caixa branca */
   margin-bottom: 20px; /* Espaço entre as caixas brancas */
   transition: all 0.3s ease;
