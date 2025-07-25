@@ -369,6 +369,7 @@ top: 185.5px;
   font-weight: 700; /* Texto mais grosso */
   justify-content: center; /* Centralizando as caixas brancas verticalmente */
   align-items: center; /* Centralizando as caixas brancas horizontalmente */
+    flex-direction:row;
 }
 
 .curso:hover {
