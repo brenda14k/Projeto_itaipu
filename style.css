@@ -333,7 +333,7 @@ top: 185.5px;
   margin-top: 60px;
   margin-bottom: 20px;
   margin-left: 0px;
-  font-weight: 700; /* Ajuste no font-weight */
+  font-weight: 900; /* Peso da fonte para negrito */
   text-transform: uppercase; /* Convertendo todas as letras para maiúsculas */
 }
 
@@ -341,21 +341,22 @@ top: 185.5px;
   background-color: #FAB518;
   border-radius: 15px;
   width: 305px; /* Largura da caixa de oportunidade */
-  height: 384px; /* Ajuste da altura */
+  height: auto; /* Ajuste automático da altura */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   gap: 20px; /* Espaçamento entre as caixas brancas */
   margin-bottom: 60px;
   margin-left: 0px; /* Movendo mais para a esquerda */
-  padding: 30px; /* Adicionando mais espaçamento entre o conteúdo e a borda da caixa amarela */
-  justify-content: center; /* Centralizando as caixas brancas verticalmente */
-  align-items: center; /* Centralizando as caixas brancas horizontalmente */
+  padding: 20px; /* Adicionando espaçamento entre o conteúdo e a borda da caixa amarela */
+  justify-content: flex-start; /* Alinhando o conteúdo no topo */
+  align-items: flex-start; /* Alinhando os itens à esquerda */
 }
 
 .curso {
   font-family: 'Ubuntu', sans-serif;
   display: flex;
+  flex-direction: row; /* Organizando os itens em linha */
   align-items: center;
   background-color: #fff;
   padding: 10px 20px; /* Ajustando o padding para garantir espaço no texto */
@@ -367,9 +368,8 @@ top: 185.5px;
   margin-bottom: 20px; /* Espaço entre as caixas brancas */
   transition: all 0.3s ease;
   font-weight: 700; /* Texto mais grosso */
-  justify-content: center; /* Centralizando as caixas brancas verticalmente */
-  align-items: center; /* Centralizando as caixas brancas horizontalmente */
-    flex-direction:row;
+  justify-content: flex-start; /* Alinhando o conteúdo à esquerda */
+  align-items: center; /* Centralizando verticalmente */
 }
 
 .curso:hover {
@@ -378,15 +378,15 @@ top: 185.5px;
 }
 
 .curso img {
-  width: 50px;
-  height: 50px;
-  margin-right: 15px;
+  width: 50px;  /* Ajustando o tamanho da imagem */
+  height: 50px; /* Ajustando o tamanho da imagem */
+  margin-right: 15px; /* Espaçamento entre a imagem e o texto */
 }
 
 .curso p {
   color: #FAB518;  /* Garantindo que o texto seja amarelo */
   font-weight: bold;
-  font-size: 16px;
+  font-size: 17px;
   margin: 0;
   white-space: normal; /* Permitir que o texto quebre para a próxima linha */
   overflow: visible; /* Removendo a quebra de texto */
@@ -397,14 +397,23 @@ top: 185.5px;
 .oportunidades .titulo-cursos {
   color: #fff;
   font-family: 'Ubuntu', sans-serif;
-  text-align: left; /* Alinhando o texto "CURSOS" ao centro */
-  font-size: 35px;  /* Ajustando o tamanho da fonte para corresponder à imagem */
+  text-align: left; /* Alinhando o texto "CURSOS" à esquerda */
+  font-size: 30px;  /* Ajustando o tamanho da fonte para corresponder à imagem */
   font-weight: 700; /* Font-weight em negrito */
   margin-top: 0; /* Ajuste do topo */
   margin-bottom: 10px; /* Ajuste do espaço abaixo */
-  padding-left: 15px; /* Adicionando o espaçamento entre o texto e a borda */
+  padding-left: 10px; /* Adicionando o espaçamento entre o texto e a borda */
   text-transform: uppercase; /* Convertendo a palavra "CURSOS" para maiúsculas */
 }
+
+/* Ajustando o texto "Livres" e "Escola Internacional para Sustentabilidade" */
+.oportunidades .curso p {
+  font-size: 16px; /* Ajustando o tamanho do texto */
+  margin: 0;
+  padding-left: 10px; /* Adicionando espaçamento entre a imagem e o texto */
+}
+
+
 
 
 
