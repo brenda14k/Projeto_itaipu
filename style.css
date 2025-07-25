@@ -413,11 +413,16 @@ top: 185.5px;
 }
 
 .texto-sustentavel p {
+   color: #FAB518;  /* Garantindo que o texto seja amarelo */
+  font-weight: bold;
+  font-size: 17px;
   margin: 0;
-  font-size: 18px;
-  font-weight: 400;
-  color: #00315e;
-  text-align: left; /* Garantindo que o texto "Escola Itaipu para a Sustentabilidade" fique alinhado à esquerda */
+  white-space: normal; /* Permitir que o texto quebre para a próxima linha */
+  overflow: visible; /* Removendo a quebra de texto */
+  text-overflow: clip; /* Removendo o ellipsis */
+  text-align: left;  /* Alinhando o texto à esquerda */
+  margin-left: 20px; /* Movendo o texto para a direita */
+
 }
 
 .sustentavel {
