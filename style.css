@@ -346,7 +346,7 @@ top: 185.5px;
     flex-direction: column;
     margin-top: 20px;
     margin-bottom: 60px;
-    gap: 25px;
+    gap: 30px;
 
     
     margin-left: 0px; /* ou outro valor, ex: 40px, 60px etc. */
@@ -355,17 +355,20 @@ top: 185.5px;
 
 
 .curso {
-    display: flex; 
-    flex-direction: row; /* Alinha a imagem e o texto na horizontal */
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    background-color: #fff; /* Cor branca para as caixas */
+    background-color: #fff;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 20px; /* mais arredondado */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 268px; /* Largura da caixa branca */
-    height: 64px; /* Altura da caixa branca */
-    margin-left: -1000px; /* Adiciona espaço entre as caixas brancas e a caixa amarela */
+    width: 268px;
+    height: 64px;
+    margin-left: -1000px;
+    margin-bottom: 20px; /* mais espaço entre caixas */
+    transition: all 0.3s ease;
 }
+
 
 .curso img {
     width: 50px; /* Ajuste do tamanho da imagem */
