@@ -319,7 +319,6 @@ top: 185.5px;
 
 }
 
-
 .oportunidades-container {
   display: flex;
   flex-direction: column;
@@ -341,8 +340,8 @@ top: 185.5px;
 .oportunidades {
   background-color: #FAB518;
   border-radius: 15px;
-  width: 305px; /* Largura da caixa de oportunidade */
-  height: auto; /* Ajustando a altura automática para acomodar o conteúdo */
+  width: 400px; /* Aumentando a largura da caixa de oportunidade */
+  height: auto; /* Ajuste automático da altura */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
@@ -355,7 +354,7 @@ top: 185.5px;
 .curso {
   font-family: 'Ubuntu', sans-serif;
   display: flex;
-  align-items: center; /* Alinhando o conteúdo verticalmente */
+  align-items: center; /* Alinhamento vertical da imagem e do texto */
   background-color: #fff;
   padding: 15px 20px; /* Aumentando o padding para aumentar a altura */
   border-radius: 40px; /* Arredondamento aumentado */
@@ -366,7 +365,7 @@ top: 185.5px;
   transition: all 0.3s ease;
   font-weight: bold; /* Texto mais grosso */
   justify-content: flex-start; /* Alinhando o conteúdo à esquerda */
-  align-items: center; /* Centralizando verticalmente */
+  align-items: center; /* Alinhamento vertical */
 }
 
 .curso:hover {
@@ -383,22 +382,25 @@ top: 185.5px;
   overflow: visible; /* Removendo a quebra de texto */
   text-overflow: clip; /* Removendo o ellipsis */
   text-align: left;  /* Alinhando o texto à esquerda */
+  margin-left: 20px; /* Movendo o texto para a direita */
 }
 
 .oportunidades .titulo-cursos {
   color: #fff;
   font-family: 'Ubuntu', sans-serif;
+  text-align: left; /* Alinhando o texto "CURSOS" à esquerda */
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 700;
   margin-top: 5px;  /* Diminuindo o espaço acima */
   margin-bottom: 10px; 
-  padding-left: 10px; 
+  padding-left: 20px; /* Movendo o título "Cursos" para a direita */
   text-transform: uppercase;
 }
 
 .curso img {
   width: 50px;  /* Garantindo que as imagens tenham o mesmo tamanho */
   height: 50px;
-  margin-right: 15px; /* Ajustando o espaçamento entre a imagem e o texto */
-  margin-left: 0; /* Garantindo que a imagem esteja à esquerda */
+  margin-right: 15px; /* Ajuste do espaçamento entre a imagem e o texto */
+  margin-left: 20px; /* Movendo a imagem para a direita */
 }
+
