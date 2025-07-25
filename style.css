@@ -324,9 +324,11 @@ top: 185.5px;
   flex-direction: column;
   align-items: flex-start;  /* Alinhando tudo à esquerda */
   padding-right: 50px;
+ font-family: 'Ubuntu', sans-serif;
 }
 
 .titulo {
+  
   font-size: 32px;
   color: #1C2D69;
   text-align: left;  /* Alinhando o título à esquerda */
@@ -362,6 +364,8 @@ top: 185.5px;
   margin-bottom: 20px; /* Espaço entre as caixas brancas */
   transition: all 0.3s ease;
   font-weight: bold; /* Texto mais grosso */
+      justify-content: center; /* Centralizando as caixas brancas verticalmente */
+  align-items: center; /* Centralizando as caixas brancas horizontalmente */
 }
 
 .curso:hover {
@@ -387,8 +391,9 @@ top: 185.5px;
 }
 
 .oportunidades .titulo-cursos {
-  color: #fff;
-  text-align: left; /* Alinhando o texto à esquerda */
+color: #fff;
+ 
+  text-align: center; /* Alinhando o texto "CURSOS" ao centro */
   font-size: 26px;  /* Ajustando o tamanho da fonte para corresponder à imagem */
   font-weight: bold; /* Font-weight em negrito */
   margin-top: 0; /* Ajuste do topo */
