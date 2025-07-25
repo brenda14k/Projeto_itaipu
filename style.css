@@ -317,7 +317,7 @@ top: 185.5px;
   top: 187.5px;
   left: 84px;
 
-    
+}
 .oportunidades-container {
   display: flex;
   flex-direction: column;
@@ -327,13 +327,14 @@ top: 185.5px;
 
 .titulo {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 30px;
+  font-size: 30px;  /* Ajustando o tamanho da fonte para 30px */
   color: #1C2D69;
   text-align: left;  /* Alinhando o título à esquerda */
   margin-top: 60px;
   margin-bottom: 20px;
   margin-left: 0px;
   font-weight: 700; /* Ajuste no font-weight */
+  text-transform: uppercase; /* Convertendo todas as letras para maiúsculas */
 }
 
 .oportunidades {
@@ -401,11 +402,9 @@ top: 185.5px;
   margin-top: 0; /* Ajuste do topo */
   margin-bottom: 10px; /* Ajuste do espaço abaixo */
   padding-left: 15px; /* Adicionando o espaçamento entre o texto e a borda */
+  text-transform: uppercase; /* Convertendo a palavra "CURSOS" para maiúsculas */
 }
 
-.curso p {
-  margin-left: 10px; /* Movendo a palavra "CURSOS" para mais à esquerda */
-}
 
 
 
