@@ -319,7 +319,6 @@ top: 185.5px;
 
     
 }
-
 .oportunidades-container {
   display: flex;
   flex-direction: column;
@@ -334,7 +333,7 @@ top: 185.5px;
   margin-top: 60px;
   margin-bottom: 20px;
   margin-left: 0px;
-      font-weight: bold;
+  font-weight: bold;
 }
 
 .oportunidades {
@@ -354,11 +353,11 @@ top: 185.5px;
   display: flex;
   align-items: center;
   background-color: #fff;
-  padding: 0 20px; /* Ajustando o padding para garantir espaço no texto */
+  padding: 10px 20px; /* Ajustando o padding para garantir espaço no texto */
   border-radius: 40px; /* Arredondamento aumentado */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 271px;  /* Largura da caixa conforme a imagem */
-  height: 51px;  /* Altura da caixa conforme a imagem */
+  width: 350px;  /* Aumentando a largura da caixa branca */
+  height: 40px;  /* Diminuindo a altura da caixa branca */
   margin-bottom: 20px; /* Espaço entre as caixas brancas */
   transition: all 0.3s ease;
   font-weight: bold; /* Texto mais grosso */
@@ -376,13 +375,14 @@ top: 185.5px;
 }
 
 .curso p {
-  color: #FAB518;
+  color: #FAB518;  /* Garantindo que o texto seja amarelo */
   font-weight: bold;
   font-size: 16px;
   margin: 0;
   white-space: normal; /* Permitir que o texto quebre para a próxima linha */
   overflow: visible; /* Removendo a quebra de texto */
   text-overflow: clip; /* Removendo o ellipsis */
+  text-align: left;  /* Alinhando o texto à esquerda */
 }
 
 .oportunidades .titulo-cursos {
@@ -390,10 +390,10 @@ top: 185.5px;
   text-align: left; /* Alinhando o texto à esquerda */
   margin-left: 10px; /* Movendo o texto um pouco mais à esquerda */
   font-size: 18px; /* Ajustando o tamanho da fonte para melhor visibilidade */
-  font-weight: normal; /* Deixando o texto em peso normal */
+  font-weight: bold; /* Deixando o texto em peso normal */
   line-height: 1.2; /* Ajustando a altura da linha para melhor legibilidade */
-    font-weight: bold;
-      margin-left: 10px;
+  margin-left: 10px;
 }
+
 
 
