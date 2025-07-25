@@ -320,38 +320,40 @@ top: 185.5px;
 .oportunidades-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;  /* Alinhando tudo à esquerda */
   padding-right: 50px;
+  padding-left: 100px; /* Ajustando o alinhamento à esquerda */
 }
 
 .titulo {
   font-size: 32px;
   color: #1C2D69;
-  text-align: right;
+  text-align: left;  /* Alinhando o título à esquerda */
   margin-top: 60px;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 0; /* Ajustando para mais à esquerda */
 }
 
 .oportunidades {
   background-color: #FAB518;
   padding: 25px;
   border-radius: 15px;
-  width: 311px;
-  min-height: 388px;
+  width: 305px; /* Largura igual à mostrada na foto */
+  height: 384px; /* Ajuste da altura */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Espaço entre as caixas */
+  gap: 20px; /* Espaçamento entre as caixas brancas */
   margin-bottom: 60px;
+  margin-left: -20px; /* Movendo mais para a esquerda */
 }
 
 .curso {
   display: flex;
   align-items: center;
   background-color: #fff;
-  padding: 50px; /* Menos padding para que a caixa fique mais ajustada */
-  border-radius: 80px; /* Arredondando mais a caixa */
+  padding: 50px; /* Ajustando o padding para um tamanho mais compacto */
+  border-radius: 80px; /* Arredondamento aumentado */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 100%;
   margin-bottom: 20px; /* Espaço entre as caixas brancas */
@@ -374,9 +376,9 @@ top: 185.5px;
   font-weight: bold;
   font-size: 16px;
   margin: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal; /* Permitir que o texto quebre para a próxima linha */
+  overflow: visible; /* Removendo a quebra de texto */
+  text-overflow: clip; /* Removendo o ellipsis */
 }
 
 .oportunidades .titulo-cursos {
