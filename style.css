@@ -347,6 +347,7 @@ top: 185.5px;
   gap: 20px; /* Espaçamento entre as caixas brancas */
   margin-bottom: 60px;
   margin-left: 0px; /* Movendo mais para a esquerda */
+  padding: 20px; /* Adicionando espaçamento entre o conteúdo e a borda da caixa amarela */
 }
 
 .curso {
@@ -356,8 +357,8 @@ top: 185.5px;
   padding: 10px 20px; /* Ajustando o padding para garantir espaço no texto */
   border-radius: 40px; /* Arredondamento aumentado */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 350px;  /* Aumentando a largura da caixa branca */
-  height: 40px;  /* Diminuindo a altura da caixa branca */
+  width: 100%;  /* Largura completa da caixa de oportunidade */
+  height: 50px;  /* Ajustando a altura da caixa branca */
   margin-bottom: 20px; /* Espaço entre as caixas brancas */
   transition: all 0.3s ease;
   font-weight: bold; /* Texto mais grosso */
@@ -388,11 +389,11 @@ top: 185.5px;
 .oportunidades .titulo-cursos {
   color: #fff;
   text-align: left; /* Alinhando o texto à esquerda */
-  margin-left: 10px; /* Movendo o texto um pouco mais à esquerda */
-  font-size: 18px; /* Ajustando o tamanho da fonte para melhor visibilidade */
-  font-weight: bold; /* Deixando o texto em peso normal */
-  line-height: 1.2; /* Ajustando a altura da linha para melhor legibilidade */
-  margin-left: 10px;
+  font-size: 26px;  /* Ajustando o tamanho da fonte para corresponder à imagem */
+  font-weight: bold; /* Font-weight em negrito */
+  margin-top: 0; /* Ajuste do topo */
+  margin-bottom: 10px; /* Ajuste do espaço abaixo */
+  padding-left: 10px; /* Adicionando o espaçamento entre o texto e a borda */
 }
 
 
