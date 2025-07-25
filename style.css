@@ -318,24 +318,22 @@ top: 185.5px;
   left: 84px;
 
     
-}
 .oportunidades-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;  /* Alinhando tudo à esquerda */
   padding-right: 50px;
-
 }
 
 .titulo {
-   font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 30px;
   color: #1C2D69;
   text-align: left;  /* Alinhando o título à esquerda */
   margin-top: 60px;
   margin-bottom: 20px;
   margin-left: 0px;
-  font-weight: 900;
+  font-weight: 700; /* Ajuste no font-weight */
 }
 
 .oportunidades {
@@ -349,11 +347,13 @@ top: 185.5px;
   gap: 20px; /* Espaçamento entre as caixas brancas */
   margin-bottom: 60px;
   margin-left: 0px; /* Movendo mais para a esquerda */
-  padding: 20px; /* Adicionando espaçamento entre o conteúdo e a borda da caixa amarela */
+  padding: 30px; /* Adicionando mais espaçamento entre o conteúdo e a borda da caixa amarela */
+  justify-content: center; /* Centralizando as caixas brancas verticalmente */
+  align-items: center; /* Centralizando as caixas brancas horizontalmente */
 }
 
 .curso {
-     font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   display: flex;
   align-items: center;
   background-color: #fff;
@@ -361,11 +361,12 @@ top: 185.5px;
   border-radius: 40px; /* Arredondamento aumentado */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 100%;  /* Largura completa da caixa de oportunidade */
+  max-width: 350px; /* Definindo a largura máxima da caixa branca */
   height: 50px;  /* Ajustando a altura da caixa branca */
   margin-bottom: 20px; /* Espaço entre as caixas brancas */
   transition: all 0.3s ease;
-  font-weight: bold; /* Texto mais grosso */
-      justify-content: center; /* Centralizando as caixas brancas verticalmente */
+  font-weight: 700; /* Texto mais grosso */
+  justify-content: center; /* Centralizando as caixas brancas verticalmente */
   align-items: center; /* Centralizando as caixas brancas horizontalmente */
 }
 
@@ -383,7 +384,7 @@ top: 185.5px;
 .curso p {
   color: #FAB518;  /* Garantindo que o texto seja amarelo */
   font-weight: bold;
-  font-size: 17px;
+  font-size: 16px;
   margin: 0;
   white-space: normal; /* Permitir que o texto quebre para a próxima linha */
   overflow: visible; /* Removendo a quebra de texto */
@@ -392,16 +393,20 @@ top: 185.5px;
 }
 
 .oportunidades .titulo-cursos {
-   color: #fff;
-    font-family: 'Ubuntu', sans-serif;
-
-  font-size: 30px;  /* Ajustando o tamanho da fonte para corresponder à imagem */
-  font-weight: 800; /* Font-weight em negrito */
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: left; /* Alinhando o texto "CURSOS" ao centro */
+  font-size: 35px;  /* Ajustando o tamanho da fonte para corresponder à imagem */
+  font-weight: 700; /* Font-weight em negrito */
   margin-top: 0; /* Ajuste do topo */
   margin-bottom: 10px; /* Ajuste do espaço abaixo */
-  padding-left: 10px; /* Adicionando o espaçamento entre o texto e a borda */
-    text-transform: uppercase;
+  padding-left: 15px; /* Adicionando o espaçamento entre o texto e a borda */
 }
+
+.curso p {
+  margin-left: 10px; /* Movendo a palavra "CURSOS" para mais à esquerda */
+}
+
 
 
 
