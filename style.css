@@ -361,7 +361,7 @@ top: 185.5px;
   padding: 10px 20px; /* Ajustando o padding para garantir espaço no texto */
   border-radius: 40px; /* Arredondamento aumentado */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 150%;  /* Largura completa da caixa de oportunidade */
+  width: 266PX;  /* Largura completa da caixa de oportunidade */
   height: 50px;  /* Ajustando a altura da caixa branca */
   margin-bottom: 20px; /* Espaço entre as caixas brancas */
   transition: all 0.3s ease;
