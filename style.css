@@ -354,10 +354,10 @@ top: 185.5px;
   align-items: center;
   background-color: #fff;
   padding: 50px; /* Ajustando o padding para um tamanho mais compacto */
-  border-radius: 50px; /* Arredondamento aumentado */
+  border-radius: 30px; /* Arredondamento aumentado */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 271px;
-    heigth:51px;
+   width: 51px;
+    heigth:271px;
   margin-bottom: 20px; /* Espaço entre as caixas brancas */
   transition: all 0.3s ease;
 }
