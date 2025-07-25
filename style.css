@@ -330,8 +330,10 @@ top: 185.5px;
     font-size: 32px;
     color: #1C2D69; /* Cor azul escuro */
     text-align: center;
-    margin-bottom: -1000px; /* Espaço entre o título e a caixa amarela */
+   margin-bottom: 20px; /* Espaço entre o título e a caixa amarela */
+    margin-left: -1000px;
 }
+
 
 .oportunidades {
     background-color: #FAB518; /* Cor de fundo amarela da seção */
@@ -378,7 +380,7 @@ top: 185.5px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
     transition: all 0.3s ease;
 }
-.oportunidades titulo-cursos{
+.oportunidades .titulo-cursos{
      color: #fff;
     text-align: center;
 }
