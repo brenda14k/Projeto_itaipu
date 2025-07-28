@@ -390,6 +390,7 @@ top: 185.5px;
   display: block;
   padding: 0; /* Remove qualquer padding na imagem */
   margin-top: 0px; /* Movendo a imagem para baixo, ajustando o valor conforme necessário */
+      margin: 0px;
     
 }
 
