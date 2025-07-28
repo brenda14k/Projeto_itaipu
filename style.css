@@ -393,14 +393,20 @@ top: 185.5px;
   margin-left: 10px; /* Removendo o padding esquerdo do texto */
 }
 
-.curso img {
+.livres img {
   width: 50px;  /* Garantindo que as imagens tenham o mesmo tamanho */
   height: 50px;
   margin-right: 15px; /* Ajuste do espaçamento entre a imagem e o texto */
   margin-left: 0px; /* Mover a imagem para a esquerda */
   display: block;
 }
+.escola img {
+  width: 50px;  /* Garantindo que as imagens tenham o mesmo tamanho */
+  height: 50px;
+  margin-right: 15px; /* Ajuste do espaçamento entre a imagem e o texto */
 
+  display: block;
+}
 .curso:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
