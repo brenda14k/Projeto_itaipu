@@ -393,12 +393,12 @@ top: 185.5px;
   margin-left: 10px; /* Removendo o padding esquerdo do texto */
 }
 
-/* Alinhamento da imagem dentro do .curso */
-.cursos img {
-  width: 50px;  /* Garantindo que as imagens tenham o mesmo tamanho */
-  height: 50px;
-  margin-right: 15px; /* Ajuste do espaçamento entre a imagem e o texto */
-  display: block;
+.curso img {
+  width: 100px; /* Ajusta a largura da imagem */
+  height: 100px; /* Ajusta a altura da imagem */
+  margin-bottom: 20px; /* Adiciona espaço entre a imagem e o texto */
+  object-fit: cover; /* Garante que a imagem seja cortada de forma proporcional */
+  border-radius: 50%; /* Torna a imagem redonda */
 }
 
 /* Ajuste de largura para que a palavra "livres" tenha um alinhamento */
