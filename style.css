@@ -407,14 +407,9 @@ top: 185.5px;
 
 .texto-sustentavel {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; /* Permite que o texto quebre para a linha seguinte se necessário */
-}
-
-.texto-sustentavel img {
-  width: 50px;
-  height: 50px;
-  margin-right: 15px;
+  flex-wrap: wrap;  /* Permite quebra de linha quando necessário */
+  align-items: center;
+  margin-top: 10px;  /* Espaçamento superior */
 }
 
 .texto-sustentavel p {
@@ -422,16 +417,21 @@ top: 185.5px;
   font-weight: bold;
   font-size: 17px;
   margin: 0;
-  white-space: normal;
-  overflow: visible;
-  text-overflow: clip;
+  white-space: normal; /* Permite quebra de linha automática */
+  overflow: visible;  /* Permite mostrar o texto completo */
+  text-overflow: clip; /* Não corta o texto com "..." */
   text-align: left;
   margin-left: 20px;
-  word-wrap: break-word;
-  word-break: break-word;
-  max-width: 100%; /* Garante que o texto quebre quando necessário */
+  word-wrap: break-word; /* Força a quebra de palavras longas */
+  word-break: break-word; /* Força quebra de palavras */
+  max-width: 100%; /* Garante que o texto ocupe a largura disponível */
 }
 
+.texto-sustentavel p .linha-quebrada {
+  display: block;  /* Força a quebra na linha */
+  width: 100%;  /* Largura total */
+  margin-top: 5px; /* Espaço entre as linhas */
+}
 
 
 
