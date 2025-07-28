@@ -382,13 +382,17 @@ top: 185.5px;
 
 /* Ajuste na imagem dentro da caixa de curso */
 .cursos img {
+/* Ajuste para a imagem dentro da caixa de curso */
+.curso img {
   width: 50px;  /* Tamanho da imagem */
   height: 50px; /* Tamanho da imagem */
   margin-right: 15px; /* Ajuste do espaçamento entre a imagem e o texto */
   margin-left: 0px; /* Remove a margem à esquerda da imagem */
   display: block;
   padding: 0; /* Remove qualquer padding na imagem */
+  margin-top: 10px; /* Movendo a imagem para baixo, ajustando o valor conforme necessário */
 }
+
 
 /* Ajuste para o texto dentro de .curso */
 .curso p {
