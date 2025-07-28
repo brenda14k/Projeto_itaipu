@@ -407,33 +407,33 @@ top: 185.5px;
 
 .texto-sustentavel {
   display: flex;
-  flex-direction: row; /* Organizando o texto e a imagem lado a lado */
-  align-items: center;
-  margin-top: 10px; /* Adicionando espaço superior */
+  flex-direction: row;
+  flex-wrap: wrap; /* Permite que o texto quebre para a linha seguinte se necessário */
+}
+
+.texto-sustentavel img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
 }
 
 .texto-sustentavel p {
-  color: #FAB518;  /* Garantindo que o texto seja amarelo */
+  color: #FAB518;
   font-weight: bold;
   font-size: 17px;
   margin: 0;
-  white-space: normal; /* Permite que o texto quebre para a próxima linha */
-  overflow: visible; /* Removendo a quebra de texto */
-  text-overflow: clip; /* Removendo o ellipsis */
-  text-align: left;  /* Alinhando o texto à esquerda */
-  margin-left: 20px; /* Movendo o texto para a direita */
-  word-wrap: break-word; /* Força a quebra de palavra se necessário */
-  word-break: break-word; /* Quebra palavras longas que ultrapassam o limite */
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  text-align: left;
+  margin-left: 20px;
+  word-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%; /* Garante que o texto quebre quando necessário */
 }
 
 
-.sustentavel {
-  margin: 0;
-  font-size: 22px;
-  font-weight: bold;
-  color: #00315e; /* Garantindo que a palavra "Sustentável" tenha uma cor visível */
-  text-align: left; /* Garantindo que o texto "Sustentável" fique alinhado à esquerda */
-}
+
 
 
 
