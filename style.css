@@ -363,6 +363,8 @@ top: 185.5px;
   margin-bottom: 20px; /* Espaço entre as caixas brancas */
   transition: all 0.3s ease;
   font-weight: bold; /* Texto mais grosso */
+ text-align: left; 
+    margin-left: 0;
   justify-content: flex-start; /* Alinhando o conteúdo à esquerda */
   align-items: center; /* Alinhamento vertical */
 }
@@ -410,6 +412,7 @@ top: 185.5px;
   flex-wrap: wrap;  /* Permite quebra de linha quando necessário */
   align-items: center;
   margin-top: 10px;  /* Espaçamento superior */
+ justify-content: flex-start;
 }
 
 .texto-sustentavel p {
