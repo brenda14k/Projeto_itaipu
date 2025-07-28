@@ -380,8 +380,7 @@ top: 185.5px;
   gap: 10px; /* Ajuste do espaço entre a imagem e o texto */
 }
 
-/* Ajuste na imagem dentro da caixa de curso */
-.cursos img {
+
 /* Ajuste para a imagem dentro da caixa de curso */
 .curso img {
   width: 50px;  /* Tamanho da imagem */
