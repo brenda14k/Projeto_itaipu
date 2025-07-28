@@ -343,7 +343,8 @@ top: 185.5px;
   display: flex;
   flex-wrap: wrap; /* permite que as caixas brancas quebrem linha */
   gap: 10px; /* espaço entre caixas brancas */
-  width: 100%; /* para permitir que se expandam na linha */
+  width:308px ; /* para permitir que se expandam na linha */
+    height:384px; 
 }
 
 /* Títulos dentro das caixas */
