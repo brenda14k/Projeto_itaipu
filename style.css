@@ -403,8 +403,8 @@ top: 185.5px;
 .escola img {
   width: 50px;  /* Garantindo que as imagens tenham o mesmo tamanho */
   height: 50px;
-  margin-right: 15px; /* Ajuste do espaçamento entre a imagem e o texto */
-
+ margin-right: 15px; /* Ajuste do espaçamento entre a imagem e o texto */
+  margin-left: 0px; /* Mover a imagem para a esquerda */
   display: block;
 }
 .curso:hover {
