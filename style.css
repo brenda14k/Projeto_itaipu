@@ -394,7 +394,7 @@ top: 185.5px;
 }
 
 /* Alinhamento da imagem dentro do .curso */
-.curso img {
+.cursos img {
   width: 50px;  /* Garantindo que as imagens tenham o mesmo tamanho */
   height: 50px;
   margin-right: 15px; /* Ajuste do espaçamento entre a imagem e o texto */
@@ -430,10 +430,6 @@ top: 185.5px;
   max-width: 100%; /* Garante que o texto ocupe a largura disponível */
 }
 
-/* Caso queira garantir um alinhamento mais preciso para "livres" no texto */
-.texto-sustentavel p .livres {
-  margin-left: 0;  /* Move a palavra para a esquerda */
-}
 
 
 
