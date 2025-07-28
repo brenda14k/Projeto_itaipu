@@ -327,6 +327,17 @@ top: 185.5px;
   margin-bottom: 60px;
 }
 
+.titulo  {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  color: #1C2D69;
+  text-align: left;  /* Alinhando o título à esquerda */
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  font-weight: 900;
+}
+
 /* Linha horizontal para colocar Oportunidades e Editais lado a lado */
 .oportunidades-container > div {
   display: flex;
