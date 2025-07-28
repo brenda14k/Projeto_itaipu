@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
@@ -20,13 +21,12 @@
     height: 100%;
     margin: 0 auto;
 
-
     /* border: solid #000 1px ; */
 }
 
 .cabecalho {
     height: 122px;
-    /*background-color: transparent;*/
+    background-color: transparent;
     background-image: linear-gradient(180deg, #fff 0%, #dbdbdb 100%);
 }
 
@@ -73,6 +73,7 @@
 
 .menu-cabecalho li:hover i {
     background-color: transparent;
+    color: #9b9b9b;
 }
 
 /* MENU PRINCIPAL */
@@ -93,14 +94,14 @@
 
 .menu a {
     text-decoration: none;
-    color: #003c6a;
+    color: #000826;
     padding: 18px;
     font-weight: 500;
 }
 
 .menu a:hover {
     background-color: #fff;
-   color: pink;
+    color: #29b5ea;
 }
 
 /* BANNNER */
@@ -127,7 +128,6 @@
 .noticias {
     display: flex;
     gap: 20px;
-    
 }
 
     .noticias .noticia {
@@ -187,7 +187,7 @@
         }
 
     .noticia .botao {
-        padding: 10px;/*parte nova*/
+        padding: 20px;
         display: flex;
         justify-content: end;
     }
@@ -201,57 +201,53 @@
             border-radius: 25px;
         }
 
-     .noticia .botao a:hover {
+         .noticia .botao a:hover {
             background-color: #0082c4;
             color: #ebebeb;
         }
-.botao_final {/*tudo isso novo*/
+
+        .botao_final a {
+          display: block;
+    margin-top: 20px; /* aumenta ou ajusta conforme necessidade */
+    margin-bottom: 40px; /* espaço entre "veja todas" e competências */
+    text-align: right;
+    color: white;
+    text-decoration: none;  
     text-align: right;  /* Alinha o conteúdo à direita */
     margin-top: 20px;   /* Adiciona um espaço acima */
- 
+
+
 }
 
-.botao_final a {
-    text-decoration: none;
-    color: white;          
-    font-size: 17px;     
-  
-}
-
-
-
+px
     
-
-    /* COMPETENCIAS */
-
-/* ALINHAMENTO DAS COMPETÊNCIAS */
-.competencias {
-  display: flex;
-  gap: 20px; /* Espaço entre as caixas */
-  flex-wrap: wrap; /* Permite que as caixas se ajustem */
-  justify-content: space-between; /* Garante que as caixas se distribuam uniformemente */
-  background-color:  #1C2D69;/*mudei/
-  margin-bottom: 40px; /* Espaço abaixo da seção de competências */
+.titulo{
+    padding:5px;
 }
+ .competencias {
+    
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
 
-.competencias .competencia {
-  flex: 0 1 32%; /* Garantir que as caixas ocupem 32% da largura do contêiner */
-  position: relative;
-  background-color:  #1C2D69;/*mudei*/
-  margin-bottom: 20px; /* Espaçamento entre as linhas, se houver */
-  border-radius: 25px; /* Borda arredondada */
-}
+    .competencias .competencia {
+        flex: 0 1 32%;
+        position: relative;
+    }
 
-.competencias .competencia img {
-  padding: 20px;
-  width: 100%;
-  border-radius: 25px;
-}
-
-.competencias p {
+    .competencias .competencia  img {
+        border-radius: 15px;
+        width: 100%;
+        width: 416px;
+        height: 295px;
+    }
+    
+ 
+    .competencias p {
   width: 280px;
   font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   color: white;
   text-transform: uppercase;
@@ -262,63 +258,64 @@
   z-index: 10;
   position: absolute;
 }
-
 .comp_1 {
-top: 185.5px;
+  
+  top: 187.5px;
   left: 84px;
- 
  
 }
 
 .comp_2 {
   
-  top: 188px;
-  left: 120px;
+  top: 187.5px;
+  left: 180px;
  
 }
+
+
+
 .comp_3 {
   
   top: 187.5px;
-  left: 84px;
- 
+  left: 100px;
+
 }
 .comp_4 {
   
   top: 187.5px;
-  left: 84px;
+  left: 180px;
  
 }
 .comp_5 {
   
   top: 187.5px;
-  left: 84px;
+  left: 135px;
  
 }
 .comp_6 {
   
   top: 187.5px;
-  left: 84px;
+  left: 155px;
  
 }
 .comp_7 {
   
   top: 187.5px;
-  left: 84px;
+  left: 151px;
  
 }
 .comp_8 {
   
   top: 187.5px;
-  left: 84px;
+  left: 140px;
  
 }
 .comp_9{
   
   top: 187.5px;
-  left: 84px;
-
+  left: 149px;
+ 
 }
-
 
 .oportunidades-container {
   display: flex;
