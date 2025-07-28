@@ -383,18 +383,21 @@ top: 185.5px;
 /* Caixas brancas internas */
 .curso,
 .edital {
-  font-family: 'Ubuntu', sans-serif;
+   font-family: 'Ubuntu', sans-serif;
   display: flex;
-  align-items: center;
+  align-items: center; /* Alinha a imagem e o texto verticalmente */
   background-color: #fff;
-  padding: 0 20px;
-  border-radius: 40px;
+  padding: 0 20px; /* Ajuste para garantir que a imagem fique colada na borda */
+  border-radius: 40px; /* Aumento no arredondamento */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 269px;
-  height: 60px;
-  font-weight: bold;
-  gap: 10px;
+  width: 269px;  /* Largura completa da caixa de oportunidade */
+  height: 60px;  /* Ajustando a altura da caixa branca para se alinhar com a imagem */
+  margin-bottom: 10px; /* Espaço entre as caixas brancas */
   transition: all 0.3s ease;
+  font-weight: bold; /* Texto mais grosso */
+  justify-content: flex-start; /* Alinhando o conteúdo à esquerda */
+  align-items: center; /* Alinhamento vertical */
+  gap: 10px; /* Ajuste do espaço entre a imagem e o texto */
 }
 
 /* Imagens dentro das caixas */
