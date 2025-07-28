@@ -350,7 +350,6 @@ top: 185.5px;
   padding: 20px; /* Adicionando espaçamento entre o conteúdo e a borda da caixa amarela */
 }
 
-
 /* Estilo para a caixa de curso */
 .curso {
   font-family: 'Ubuntu', sans-serif;
@@ -361,7 +360,7 @@ top: 185.5px;
   border-radius: 40px; /* Aumento no arredondamento */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 269px;  /* Largura completa da caixa de oportunidade */
-  height: 59px;  /* Diminuindo a altura da caixa branca */
+  height: 60px;  /* Ajustando a altura da caixa branca para se alinhar com a imagem */
   margin-bottom: 20px; /* Espaço entre as caixas brancas */
   transition: all 0.3s ease;
   font-weight: bold; /* Texto mais grosso */
@@ -380,7 +379,7 @@ top: 185.5px;
   overflow: visible;  /* Permite mostrar o texto completo */
   text-overflow: clip; /* Não corta o texto com "..." */
   text-align: left;  /* Alinhando o texto à esquerda */
-  margin-left: 0; /* Removendo o padding esquerdo do texto */
+  margin-left: 10px; /* Removendo o padding esquerdo do texto */
 }
 
 /* Alinhamento da imagem dentro do .curso */
@@ -391,9 +390,9 @@ top: 185.5px;
   display: block;
 }
 
-/* Caso a palavra "livres" seja parte do texto, podemos usar a classe específica para manipulá-la */
+/* Ajuste de largura para que a palavra "livres" tenha um alinhamento */
 .curso p.livres {
-  margin-left: 0; /* Mover a palavra mais para a esquerda */
+  margin-left: 0; /* Move a palavra mais para a esquerda */
 }
 
 /* Ajuste no container .texto-sustentavel */
@@ -424,6 +423,7 @@ top: 185.5px;
 .texto-sustentavel p .livres {
   margin-left: 0;  /* Move a palavra para a esquerda */
 }
+
 
 
 
