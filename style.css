@@ -359,7 +359,7 @@ top: 185.5px;
   border-radius: 40px; /* Arredondamento aumentado */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 100%;  /* Largura completa da caixa de oportunidade */
-  height: 50px;  /* Diminuindo a altura da caixa branca */
+  height: 59px;  /* Diminuindo a altura da caixa branca */
   margin-bottom: 20px; /* Espaço entre as caixas brancas */
   transition: all 0.3s ease;
   font-weight: bold; /* Texto mais grosso */
