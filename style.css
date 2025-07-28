@@ -386,7 +386,7 @@ top: 185.5px;
   width: 50px;  /* Tamanho da imagem */
   height: 50px; /* Tamanho da imagem */
   margin-right: 25px; /* Ajuste do espaçamento entre a imagem e o texto */
-  margin-left: -25px; /* Remove a margem à esquerda da imagem */
+  margin-left: 0px; /* Remove a margem à esquerda da imagem */
   display: block;
   padding: 0; /* Remove qualquer padding na imagem */
   margin-top: 0px; /* Movendo a imagem para baixo, ajustando o valor conforme necessário */
