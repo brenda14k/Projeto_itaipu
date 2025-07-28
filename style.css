@@ -389,7 +389,8 @@ top: 185.5px;
   margin-left: 0px; /* Remove a margem à esquerda da imagem */
   display: block;
   padding: 0; /* Remove qualquer padding na imagem */
-  margin-top: 10px; /* Movendo a imagem para baixo, ajustando o valor conforme necessário */
+  margin-top: 0px; /* Movendo a imagem para baixo, ajustando o valor conforme necessário */
+    
 }
 
 
@@ -404,6 +405,7 @@ top: 185.5px;
   text-overflow: clip; /* Não corta o texto com "..." */
   text-align: left;  /* Alinhando o texto à esquerda */
   margin-left: 10px; /* Ajusta o espaçamento do texto em relação à imagem */
+    line-height: 1.2;
 }
 
 
