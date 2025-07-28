@@ -394,16 +394,16 @@ top: 185.5px;
 }
 
 .curso img {
-  width: 100px; /* Ajusta a largura da imagem */
-  height: 100px; /* Ajusta a altura da imagem */
-  margin-bottom: 20px; /* Adiciona espaço entre a imagem e o texto */
-  object-fit: cover; /* Garante que a imagem seja cortada de forma proporcional */
-  border-radius: 50%; /* Torna a imagem redonda */
+  width: 50px;  /* Garantindo que as imagens tenham o mesmo tamanho */
+  height: 50px;
+  margin-right: 15px; /* Ajuste do espaçamento entre a imagem e o texto */
+  margin-left: 0px; /* Mover a imagem para a esquerda */
+  display: block;
 }
 
-/* Ajuste de largura para que a palavra "livres" tenha um alinhamento */
-.curso p.livres {
-  margin-left: 0; /* Move a palavra mais para a esquerda */
+.curso:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Ajuste no container .texto-sustentavel */
