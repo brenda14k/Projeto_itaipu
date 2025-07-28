@@ -230,22 +230,22 @@
   gap: 20px; /* Espaço entre as caixas */
   flex-wrap: wrap; /* Permite que as caixas se ajustem */
   justify-content: space-between; /* Garante que as caixas se distribuam uniformemente */
-  background-color: #000a28;/*mudei/
+  background-color:  #1C2D69;/*mudei/
   margin-bottom: 40px; /* Espaço abaixo da seção de competências */
 }
 
 .competencias .competencia {
   flex: 0 1 32%; /* Garantir que as caixas ocupem 32% da largura do contêiner */
   position: relative;
-  background-color: #000a28;/*mudei*/
+  background-color:  #1C2D69;/*mudei*/
   margin-bottom: 20px; /* Espaçamento entre as linhas, se houver */
-  border-radius: 15px; /* Borda arredondada */
+  border-radius: 25px; /* Borda arredondada */
 }
 
 .competencias .competencia img {
   padding: 20px;
   width: 100%;
-  border-radius: 15px;
+  border-radius: 25px;
 }
 
 .competencias p {
