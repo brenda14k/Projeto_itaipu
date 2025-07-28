@@ -337,14 +337,14 @@ top: 185.5px;
 /* Estilo geral das caixas principais (amarela e verde) */
 .oportunidades,
 .editais {
+  width: 311px;
+  height: 389px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   display: flex;
-  flex-wrap: wrap; /* permite que as caixas brancas quebrem linha */
-  gap: 10px; /* espaço entre caixas brancas */
-  width:308px ; /* para permitir que se expandam na linha */
-    height:384px; 
+  flex-direction: column; /* ou flex-wrap */
+  gap: 10px;
 }
 
 /* Títulos dentro das caixas */
