@@ -381,7 +381,7 @@ top: 185.5px;
 }
 
 /* Ajuste na imagem dentro da caixa de curso */
-.curso img {
+.cursos img {
   width: 50px;  /* Tamanho da imagem */
   height: 50px; /* Tamanho da imagem */
   margin-right: 15px; /* Ajuste do espaçamento entre a imagem e o texto */
