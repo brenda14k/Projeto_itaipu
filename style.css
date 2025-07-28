@@ -413,17 +413,19 @@ top: 185.5px;
 }
 
 .texto-sustentavel p {
-   color: #FAB518;  /* Garantindo que o texto seja amarelo */
+  color: #FAB518;  /* Garantindo que o texto seja amarelo */
   font-weight: bold;
   font-size: 17px;
   margin: 0;
-  white-space: normal; /* Permitir que o texto quebre para a próxima linha */
+  white-space: normal; /* Permite que o texto quebre para a próxima linha */
   overflow: visible; /* Removendo a quebra de texto */
   text-overflow: clip; /* Removendo o ellipsis */
   text-align: left;  /* Alinhando o texto à esquerda */
   margin-left: 20px; /* Movendo o texto para a direita */
-
+  word-wrap: break-word; /* Força a quebra de palavra se necessário */
+  word-break: break-word; /* Quebra palavras longas que ultrapassam o limite */
 }
+
 
 .sustentavel {
   margin: 0;
