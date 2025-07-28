@@ -230,7 +230,7 @@
   gap: 20px; /* Espaço entre as caixas */
   flex-wrap: wrap; /* Permite que as caixas se ajustem */
   justify-content: space-between; /* Garante que as caixas se distribuam uniformemente */
-  background-color: #000823;
+  background-color: #003c6a;
   margin-bottom: 40px; /* Espaço abaixo da seção de competências */
 }
 
