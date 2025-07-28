@@ -318,218 +318,100 @@ top: 185.5px;
   left: 84px;
 
 }
+
+
+
+
 .oportunidades-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;  /* Alinhando tudo à esquerda */
-  padding-right: 50px;
+  gap: 30px;
+  margin-bottom: 60px;
 }
 
-.titulo {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 30px;
-  color: #1C2D69;
-  text-align: left;  /* Alinhando o título à esquerda */
-  margin-top: 60px;
-  margin-bottom: 20px;
-  margin-left: 0px;
-  font-weight: 900;
+/* Linha horizontal para colocar Oportunidades e Editais lado a lado */
+.oportunidades-container > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
-.oportunidades {
-  background-color: #FAB518;
+/* Estilo geral das caixas principais (amarela e verde) */
+.oportunidades,
+.editais {
   border-radius: 15px;
-  width: 308px; /* Largura da caixa de oportunidade */
-  height: 384px; /* Ajuste automático da altura */
+  width: 308px;
+  height: auto;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Espaçamento entre as caixas brancas */
-  margin-bottom: 60px;
-  margin-left: 0px; /* Movendo mais para a esquerda */
-  padding: 20px; /* Adicionando espaçamento entre o conteúdo e a borda da caixa amarela */
+  padding: 20px;
 }
 
-.oportunidades .titulo-cursos {
+/* Títulos dentro das caixas */
+.oportunidades .titulo-cursos,
+.editais .titulo-cursos {
   color: #fff;
   font-family: 'Ubuntu', sans-serif;
-  text-align: left; /* Alinhando o texto "CURSOS" à esquerda */
   font-size: 30px;
   font-weight: 700;
-  margin-top: 5px;  /* Diminuindo o espaço acima */
-  margin-bottom: 10px; 
-  padding-left: 20px; /* Movendo o título "Cursos" para a direita */
   text-transform: uppercase;
-}
-/* Ajuste para a caixa de curso */
-.curso {
-  font-family: 'Ubuntu', sans-serif;
-  display: flex;
-  align-items: center; /* Alinha a imagem e o texto verticalmente */
-  background-color: #fff;
-  padding: 0 20px; /* Ajuste para garantir que a imagem fique colada na borda */
-  border-radius: 40px; /* Aumento no arredondamento */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 269px;  /* Largura completa da caixa de oportunidade */
-  height: 60px;  /* Ajustando a altura da caixa branca para se alinhar com a imagem */
-  margin-bottom: 20px; /* Espaço entre as caixas brancas */
-  transition: all 0.3s ease;
-  font-weight: bold; /* Texto mais grosso */
-  justify-content: flex-start; /* Alinhando o conteúdo à esquerda */
-  align-items: center; /* Alinhamento vertical */
-  gap: 10px; /* Ajuste do espaço entre a imagem e o texto */
-}
-
-
-/* Ajuste para a imagem dentro da caixa de curso */
-.curso img {
-  width: 50px;  /* Tamanho da imagem */
-  height: 50px; /* Tamanho da imagem */
-  margin-right: 25px; /* Ajuste do espaçamento entre a imagem e o texto */
-  margin-left: 0px; /* Remove a margem à esquerda da imagem */
-  display: block;
-  padding: 0; /* Remove qualquer padding na imagem */
-  margin-top: 0px; /* Movendo a imagem para baixo, ajustando o valor conforme necessário */
-      margin: 0px;
-    
-}
-
-
-/* Ajuste para o texto dentro de .curso */
-.curso p {
-  color: #FAB518;  /* Garantindo que o texto seja amarelo */
-  font-weight: bold;
-  font-size: 17px;
-  margin: 0;
-  white-space: normal; /* Permite que o texto quebre para a próxima linha */
-  overflow: visible;  /* Permite mostrar o texto completo */
-  text-overflow: clip; /* Não corta o texto com "..." */
-  text-align: left;  /* Alinhando o texto à esquerda */
-  margin-left: 10px; /* Ajusta o espaçamento do texto em relação à imagem */
-    line-height: 1.2;
-}
-
-
-.curso:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Ajuste no container .texto-sustentavel */
-.texto-sustentavel {
-  display: flex;
-  flex-wrap: wrap;  /* Permite quebra de linha quando necessário */
-  align-items: center;
-  margin-top: 10px;  /* Espaçamento superior */
-  justify-content: flex-start; /* Alinha os itens à esquerda */
-}
-
-.texto-sustentavel p {
-  color: #FAB518;
-  font-weight: bold;
-  font-size: 17px;
-  margin: 0;
-  white-space: normal; /* Permite quebra de linha automática */
-  overflow: visible;  /* Permite mostrar o texto completo */
-  text-overflow: clip; /* Não corta o texto com "..." */
-  text-align: left;
-  margin-left: 0; /* Remover o margem esquerda */
-  word-wrap: break-word; /* Força a quebra de palavras longas */
-  word-break: break-word; /* Força quebra de palavras */
-  max-width: 100%; /* Garante que o texto ocupe a largura disponível */
-}
-
-
-
-
-
-.titulo {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 30px;
-  color: #1C2D69;
-  text-align: left;  /* Alinhando o título à esquerda */
-  margin-top: 60px;
   margin-bottom: 20px;
-  margin-left: 0px;
-  font-weight: 900;
+  padding-left: 20px;
+}
+
+/* Cor específica de cada caixa */
+.oportunidades {
+  background-color: #FAB518;
 }
 
 .editais {
   background-color: #009038;
-  border-radius: 15px;
-  width: 308px; /* Largura da caixa de oportunidade */
-  height: 384px; /* Ajuste automático da altura */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  gap: 20px; /* Espaçamento entre as caixas brancas */
-  margin-bottom: 60px;
-  margin-left: 0px; /* Movendo mais para a esquerda */
-  padding: 20px; /* Adicionando espaçamento entre o conteúdo e a borda da caixa amarela */
 }
 
-.editais .titulo-cursos {
-  color: #fff;
-  font-family: 'Ubuntu', sans-serif;
-  text-align: left; /* Alinhando o texto "CURSOS" à esquerda */
-  font-size: 30px;
-  font-weight: 700;
-  margin-top: 5px;  /* Diminuindo o espaço acima */
-  margin-bottom: 10px; 
-  padding-left: 20px; /* Movendo o título "Cursos" para a direita */
-  text-transform: uppercase;
-}
-/* Ajuste para a caixa de curso */
-.edital{
+/* Caixas brancas internas */
+.curso,
+.edital {
   font-family: 'Ubuntu', sans-serif;
   display: flex;
-  align-items: center; /* Alinha a imagem e o texto verticalmente */
+  align-items: center;
   background-color: #fff;
-  padding: 0 20px; /* Ajuste para garantir que a imagem fique colada na borda */
-  border-radius: 40px; /* Aumento no arredondamento */
+  padding: 0 20px;
+  border-radius: 40px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 269px;  /* Largura completa da caixa de oportunidade */
-  height: 60px;  /* Ajustando a altura da caixa branca para se alinhar com a imagem */
-  margin-bottom: 20px; /* Espaço entre as caixas brancas */
-  transition: all 0.3s ease;
-  font-weight: bold; /* Texto mais grosso */
-  justify-content: flex-start; /* Alinhando o conteúdo à esquerda */
-  align-items: center; /* Alinhamento vertical */
-  gap: 10px; /* Ajuste do espaço entre a imagem e o texto */
-}
-
-
-/* Ajuste para a imagem dentro da caixa de curso */
-.edital img {
-  width: 50px;  /* Tamanho da imagem */
-  height: 50px; /* Tamanho da imagem */
-  margin-right: 25px; /* Ajuste do espaçamento entre a imagem e o texto */
-  margin-left: 0px; /* Remove a margem à esquerda da imagem */
-  display: block;
-  padding: 0; /* Remove qualquer padding na imagem */
-  margin-top: 0px; /* Movendo a imagem para baixo, ajustando o valor conforme necessário */
-      margin: 0px;
-    
-}
-
-
-/* Ajuste para o texto dentro de .curso */
-.edital p {
-  color: #009038;  /* Garantindo que o texto seja amarelo */
+  width: 269px;
+  height: 60px;
+  margin-bottom: 20px;
   font-weight: bold;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.curso img,
+.edital img {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Texto dentro das caixas brancas */
+.curso p {
+  color: #FAB518;
   font-size: 17px;
   margin: 0;
-  white-space: normal; /* Permite que o texto quebre para a próxima linha */
-  overflow: visible;  /* Permite mostrar o texto completo */
-  text-overflow: clip; /* Não corta o texto com "..." */
-  text-align: left;  /* Alinhando o texto à esquerda */
-  margin-left: 10px; /* Ajusta o espaçamento do texto em relação à imagem */
-    line-height: 1.2;
+  line-height: 1.2;
 }
 
+.edital p {
+  color: #009038;
+  font-size: 17px;
+  margin: 0;
+  line-height: 1.2;
+}
 
+.curso:hover,
 .edital:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
- 
