@@ -340,7 +340,7 @@ top: 185.5px;
   background-color: #FAB518;
   border-radius: 15px;
   width: 306px; /* Largura da caixa de oportunidade */
-  height: auto; /* Ajuste automático da altura */
+  height: 301px; /* Ajuste automático da altura */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
@@ -385,8 +385,8 @@ top: 185.5px;
 .curso img {
   width: 50px;  /* Tamanho da imagem */
   height: 50px; /* Tamanho da imagem */
-  margin-right: 15px; /* Ajuste do espaçamento entre a imagem e o texto */
-  margin-left: 0px; /* Remove a margem à esquerda da imagem */
+  margin-right: 10px; /* Ajuste do espaçamento entre a imagem e o texto */
+  margin-left: -10px; /* Remove a margem à esquerda da imagem */
   display: block;
   padding: 0; /* Remove qualquer padding na imagem */
   margin-top: 0px; /* Movendo a imagem para baixo, ajustando o valor conforme necessário */
