@@ -320,8 +320,6 @@ top: 185.5px;
 }
 
 
-
-
 .oportunidades-container {
   display: flex;
   flex-direction: column;
@@ -340,17 +338,18 @@ top: 185.5px;
 .oportunidades,
 .editais {
   border-radius: 15px;
-  width: 308px;
-  height: auto;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap; /* permite que as caixas brancas quebrem linha */
+  gap: 10px; /* espaço entre caixas brancas */
+  width: 100%; /* para permitir que se expandam na linha */
 }
 
 /* Títulos dentro das caixas */
 .oportunidades .titulo-cursos,
 .editais .titulo-cursos {
+  width: 100%; /* ocupa linha toda acima das caixas */
   color: #fff;
   font-family: 'Ubuntu', sans-serif;
   font-size: 30px;
@@ -381,12 +380,12 @@ top: 185.5px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 269px;
   height: 60px;
-  margin-bottom: 10px;
   font-weight: bold;
   gap: 10px;
   transition: all 0.3s ease;
 }
 
+/* Imagens dentro das caixas */
 .curso img,
 .edital img {
   width: 50px;
@@ -409,6 +408,13 @@ top: 185.5px;
   margin: 0;
   line-height: 1.2;
 }
+
+.curso:hover,
+.edital:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
 
 .curso:hover,
 .edital:hover {
