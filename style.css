@@ -361,13 +361,13 @@ top: 185.5px;
   padding-left: 20px; /* Movendo o título "Cursos" para a direita */
   text-transform: uppercase;
 }
-/* Estilo para a caixa de curso */
+/* Ajuste para a caixa de curso */
 .curso {
   font-family: 'Ubuntu', sans-serif;
   display: flex;
-  align-items: center; /* Alinhamento vertical da imagem e do texto */
+  align-items: center; /* Alinha a imagem e o texto verticalmente */
   background-color: #fff;
-  padding: 10px 20px; /* Ajustando o padding para diminuir a altura */
+  padding: 0 20px; /* Ajuste para garantir que a imagem fique colada na borda */
   border-radius: 40px; /* Aumento no arredondamento */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 269px;  /* Largura completa da caixa de oportunidade */
@@ -377,29 +377,32 @@ top: 185.5px;
   font-weight: bold; /* Texto mais grosso */
   justify-content: flex-start; /* Alinhando o conteúdo à esquerda */
   align-items: center; /* Alinhamento vertical */
-  gap: 15px; /* Espaço entre a imagem e o texto */
+  gap: 10px; /* Ajuste do espaço entre a imagem e o texto */
 }
 
-/* Estilo para o texto dentro do .curso */
+/* Ajuste na imagem dentro da caixa de curso */
+.curso img {
+  width: 50px;  /* Tamanho da imagem */
+  height: 50px; /* Tamanho da imagem */
+  margin-right: 15px; /* Ajuste do espaçamento entre a imagem e o texto */
+  margin-left: 0px; /* Remove a margem à esquerda da imagem */
+  display: block;
+  padding: 0; /* Remove qualquer padding na imagem */
+}
+
+/* Ajuste para o texto dentro de .curso */
 .curso p {
   color: #FAB518;  /* Garantindo que o texto seja amarelo */
   font-weight: bold;
   font-size: 17px;
   margin: 0;
-  white-space: normal; /* Permitir que o texto quebre para a próxima linha */
+  white-space: normal; /* Permite que o texto quebre para a próxima linha */
   overflow: visible;  /* Permite mostrar o texto completo */
   text-overflow: clip; /* Não corta o texto com "..." */
   text-align: left;  /* Alinhando o texto à esquerda */
-  margin-left: 10px; /* Removendo o padding esquerdo do texto */
+  margin-left: 10px; /* Ajusta o espaçamento do texto em relação à imagem */
 }
 
-.curso  img {
-  width: 50px;  /* Garantindo que as imagens tenham o mesmo tamanho */
-  height: 50px;
-  margin-right: 15px; /* Ajuste do espaçamento entre a imagem e o texto */
-  margin-left: 0px; /* Mover a imagem para a esquerda */
-  display: block;
-}
 
 .curso:hover {
   transform: scale(1.05);
