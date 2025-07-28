@@ -350,6 +350,17 @@ top: 185.5px;
   padding: 20px; /* Adicionando espaçamento entre o conteúdo e a borda da caixa amarela */
 }
 
+.oportunidades .titulo-cursos {
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: left; /* Alinhando o texto "CURSOS" à esquerda */
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 5px;  /* Diminuindo o espaço acima */
+  margin-bottom: 10px; 
+  padding-left: 20px; /* Movendo o título "Cursos" para a direita */
+  text-transform: uppercase;
+}
 /* Estilo para a caixa de curso */
 .curso {
   font-family: 'Ubuntu', sans-serif;
