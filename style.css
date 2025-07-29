@@ -381,9 +381,8 @@
 
 .curso, .edital, .ecossistema {
   background-color: #fff;
-  border-radius: 10px;
   padding: 15px;
-  border-radius: 15px;
+  border-radius: 25px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -401,7 +400,18 @@
   margin: 0;
   color: inherit;
 }
+/* Cores do texto de acordo com a seção */
+.oportunidades .curso p {
+  color: #FAB518;
+}
 
+.editais .edital p {
+  color: #009038;
+}
+
+.ecossistemas .ecossistema p {
+  color: #0082c4;
+}
 /* Força quebra de linha para títulos compostos */
 .linha-quebrada {
   display: block;
