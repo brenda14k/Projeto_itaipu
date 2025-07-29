@@ -342,7 +342,7 @@
 .ecossistemas {
   width: 308px;
   min-height: 389px;
-  border-radius: 25px;
+  border-radius: 50px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   display: flex;
@@ -401,15 +401,14 @@
 
 }
 /* Cores do texto de acordo com a seção */
-.oportunidades .curso p {
+ .curso p {
   color: #FAB518;
 }
-
-.editais .edital p {
+.edital p {
   color: #009038;
 }
 
-.ecossistemas .ecossistema p {
+ .ecossistema p {
   color: #0082c4;
 }
 /* Força quebra de linha para títulos compostos */
