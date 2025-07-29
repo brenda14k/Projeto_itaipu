@@ -342,7 +342,6 @@
 .ecossistemas {
   width: 308px;
   min-height: 389px;
-  border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   display: flex;
@@ -352,12 +351,15 @@
 
 .oportunidades {
   background-color: #FAB518;
+    border-radius: 15px;
 }
 .editais {
   background-color: #009038;
+    border-radius:15px
 }
 .ecossistemas {
   background-color: #0082c4;
+    border-radius:15px
 }
 
 .titulo-cursos {
@@ -383,7 +385,7 @@
 .curso, .edital, .ecossistema {
   background-color: #fff;
   padding: 15px;
-  border-radius: 45px;
+  border-radius: 25px;
   display: flex;
   align-items: center;
   gap: 10px;
