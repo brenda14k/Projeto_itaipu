@@ -406,14 +406,14 @@
   margin: 0;
 }
 /* Cores do texto de acordo com a seção */
- .curso p {
+ .cursos p {
   color: #FAB518;
 }
-.edital p {
+.lista-editais p {
   color: #009038;
 }
 
- .ecossistema p {
+ .lista-eco p {
   color: #0082c4;
 }
 /* Força quebra de linha para títulos compostos */
