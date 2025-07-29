@@ -412,6 +412,8 @@
 .editais p,
 .ecossistemas p,
 .empregos p {
+     font-family: 'Ubuntu', sans-serif;
+
   color: #fff;  /* Cor do texto dentro das caixas */
   font-size: 16px;
   font-weight: 500;
