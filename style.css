@@ -339,7 +339,8 @@
 /* Blocos principais (amarelo, verde, azul) */
 .oportunidades,
 .editais,
-.ecossistemas {
+.ecossistemas,
+.empregos{
   width: 308px;
   height: 389px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -355,11 +356,15 @@
 }
 .editais {
   background-color: #009038;
-    border-radius:15px
+    border-radius:15px;
 }
 .ecossistemas {
   background-color: #0082c4;
-    border-radius:15px
+    border-radius:15px;
+}
+.empregos{
+      background-color: #e40f1c;
+    border-radius:15px;
 }
 
 .titulo-cursos {
@@ -373,16 +378,7 @@
 }
 
 /* Grupos internos */
-.cursos,
-.lista-editais,
-.lista-eco {
- 
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.curso, .edital, .ecossistema {
+.curso, .edital, .ecossistema,emprego {
   width: 273px;
   height: 56px;
   background-color: #fff;
@@ -395,10 +391,21 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.cursos,
+.lista-editais,
+.lista-eco,
+.oportunidades-emp{
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 /* Texto interno */
 .cursos p,
 .lista-editais p,
-.lista-eco p {
+.lista-eco p,
+.oportunidades-emp p{
   font-family: 'Ubuntu', sans-serif; /* Mudando para a fonte desejada */
   font-size: 17px;
   line-height: 1.2;
@@ -406,15 +413,18 @@
   margin: 0;
 }
 /* Cores do texto de acordo com a seção */
-.oportunidades .cursos p {
+ .cursos p {
   color: #FAB518;
 }
-.oportunidades .lista-editais p {
+ .lista-editais p {
   color: #009038;
 }
 
-.oportunidades .lista-eco p {
+.lista-eco p {
   color: #0082c4;
+}
+.oportunidades-emp p{
+    color: #e40f1c;
 }
 /* Força quebra de linha para títulos compostos */
 .linha-quebrada {
@@ -423,7 +433,8 @@
 
 .curso img,
 .edital img,
-.ecossistema img {
+.ecossistema img,
+.oportunidades img{
   width: 50px;
   height: 50px;
   object-fit: contain;
@@ -432,7 +443,8 @@
 
 .curso:hover,
 .edital:hover,
-.ecossistema:hover {
+.ecossistema:hover,
+.emprego:hover{
   transform: scale(1.05);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
