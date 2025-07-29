@@ -349,27 +349,24 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-   
+    border-radius: 15px; /* Bordas arredondadas */
 }
 
+/* Cores e estilos de fundo para cada seção */
 .oportunidades {
     background-color: #FAB518;
-    border-radius: 15px;
 }
 
 .editais {
     background-color: #009038;
-    border-radius: 15px;
 }
 
 .ecossistemas {
     background-color: #0082c4;
-    border-radius: 15px;
 }
 
 .empregos {
-    background-color: #e40f1c;  
-    border-radius: 15px;
+    background-color: #e40f1c;
 }
 
 /* Estilo dos itens dentro das caixas (como cursos, editais, ecossistemas, empregos) */
@@ -400,9 +397,11 @@
 .editais h2,
 .ecossistemas h2,
 .empregos h2 {
+     font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
     color: #fff; 
-    font-weight: 700;
-    font-size: 22px;
+    font-weight: 800;
+    font-size: 30px;
 }
 
 /* Texto dentro dos itens */
@@ -432,17 +431,7 @@
     color: #fff; 
 }
 
-/* Estilo para os títulos principais de cada seção (como Oportunidades, Editais, Ecossistemas, Empregos) */
-.titulo {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 30px;
-    color: #003c6a;
-    text-align: left;  /* Alinha o título à esquerda */
-    margin-top: 60px;
-    margin-bottom: 20px;
-    margin-left: 0px;
-    font-weight: 900;
-}
+
 
 /* Caso queira uma quebra de linha dentro dos títulos */
 .linha-quebrada {
