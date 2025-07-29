@@ -406,14 +406,14 @@
   margin: 0;
 }
 /* Cores do texto de acordo com a seção */
- .cursos p {
+.oportunidades .cursos p {
   color: #FAB518;
 }
-.lista-editais p {
+.oportunidades .lista-editais p {
   color: #009038;
 }
 
- .lista-eco p {
+.oportunidades .lista-eco p {
   color: #0082c4;
 }
 /* Força quebra de linha para títulos compostos */
