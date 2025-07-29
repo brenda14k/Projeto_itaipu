@@ -318,12 +318,22 @@
 
 
 /* Oportunidades */
+
 .oportunidades-container {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
     justify-content: flex-start;
     margin-bottom: 60px;
+}
+.titulo{
+     font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+    color:#003c6a;
+    text-align:left;
+    margin-top:60px;
+    margun-left:0px;
+    font-weight:900;
 }
 
 .oportunidades,
