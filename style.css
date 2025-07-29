@@ -350,7 +350,8 @@
 
 
 .oportunidades .titulo-cursos,
-.editais .titulo-cursos {
+.editais .titulo-cursos,
+.ecossistemas .titulo-cursos{
   width: 100%;
   color: #fff;
   font-family: 'Ubuntu', sans-serif;
@@ -368,9 +369,13 @@
 .editais {
   background-color: #009038;
 }
+.ecossitemas{
+    background-color: #0082c4;
+}
 
 .curso,
-.edital {
+.edital,
+.ecossistema{
   font-family: 'Ubuntu', sans-serif;
   display: flex;
   align-items: center;
@@ -388,7 +393,8 @@
 
 
 .curso img,
-.edital img {
+.edital img,
+.ecossistema img{
   width: 50px;
   height: 50px;
   margin: 0;
@@ -409,16 +415,23 @@
   line-height: 1.2;
   margin: 0;
 }
-
+.ecossistema p {
+    color:#0082c4 ;
+    font-size: 17px;
+  line-height: 1.2;
+  margin: 0;
+}
 /* Efeito hover */
 .curso:hover,
-.edital:hover {
+.edital:hover,
+.ecossistema:hover{
   transform: scale(1.05);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .cursos,
-.editais-lista {
+.editais-lista,
+.lista-eco{
   display: flex;
   flex-direction: column;
 }
