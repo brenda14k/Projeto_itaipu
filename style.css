@@ -316,20 +316,8 @@
  
 }
 
-/* Cursos, Editais e Ecossistemas - Container principal */
 
-
-.titulo {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 30px;
-  color: #003c6a;
-  text-align: left;  /* Alinhando o título à esquerda */
-  margin-top: 60px;
-  margin-bottom: 20px;
-  margin-left: 0px;
-  font-weight: 900;
-}
-/* Container principal de Oportunidades, Editais, Ecossistemas, Empregos */
+/* Oportunidades */
 .oportunidades-container {
     display: flex;
     gap: 30px;
@@ -428,7 +416,7 @@
 }
 
 .empregos p {
-    color: #fff; 
+    color: #e40f1c; 
 }
 
 
