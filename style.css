@@ -341,7 +341,7 @@
 .editais,
 .ecossistemas {
   width: 308px;
-  min-height: 389px;
+  height: 389px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   display: flex;
@@ -383,6 +383,8 @@
 }
 
 .curso, .edital, .ecossistema {
+      width: 273px;
+  height: 56px;
   background-color: #fff;
   padding: 15px;
   border-radius: 25px;
