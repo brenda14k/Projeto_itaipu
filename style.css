@@ -317,13 +317,7 @@
 }
 
 /* Cursos, Editais e Ecossistemas - Container principal */
-.oportunidades-container {
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  margin-bottom: 60px;
-}
+
 
 .titulo {
   font-family: 'Ubuntu', sans-serif;
@@ -335,8 +329,14 @@
   margin-left: 0px;
   font-weight: 900;
 }
+.oportunidades-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 60px;
+}
 
-/* Blocos principais (amarelo, verde, azul) */
 .oportunidades,
 .editais,
 .ecossistemas,
@@ -348,34 +348,30 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  border-radius: 15px;
 }
 
 .oportunidades {
   background-color: #FAB518;
-    border-radius: 15px;
-}
-.editais {
-  background-color: #009038;
-    border-radius:15px;
-}
-.ecossistemas {
-  background-color: #0082c4;
-    border-radius:15px;
-}
-.empregos{
-      background-color: #e40f1c;
-    border-radius:15px;
+     border-radius:15px;
 }
 
-.titulo-cursos {
-  color: #fff;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding-left: 10px;
-  margin-bottom: 10px;
+.editais {
+  background-color: #009038;
+     border-radius:15px;
 }
+
+.ecossistemas {
+  background-color: #0082c4;
+     border-radius:15px;
+}
+
+.empregos {
+  background-color: #e40f1c;
+     border-radius:15px;
+}
+
+
 
 /* Grupos internos */
 .curso, .edital, .ecossistema,emprego {
@@ -401,31 +397,43 @@
   gap: 15px;
 }
 
-/* Texto interno */
-.cursos p,
-.lista-editais p,
-.lista-eco p,
-.oportunidades-emp p{
-  font-family: 'Ubuntu', sans-serif; /* Mudando para a fonte desejada */
-  font-size: 17px;
-  line-height: 1.2;
-  font-weight: 500;
-  margin: 0;
-}
-/* Cores do texto de acordo com a seção */
- .cursos p {
-  color: #FAB518;
-}
- .lista-editais p {
-  color: #009038;
+/* Títulos dentro das caixas */
+.oportunidades h2,
+.editais h2,
+.ecossistemas h2,
+.empregos h2 {
+  color: #fff; /* Cor do título dentro de cada caixa */
+  font-weight: 700;
+  font-size: 22px;
 }
 
-.lista-eco p {
-  color: #0082c4;
+/* Texto dentro dos itens */
+.oportunidades p,
+.editais p,
+.ecossistemas p,
+.empregos p {
+  color: #fff;  /* Cor do texto dentro das caixas */
+  font-size: 16px;
+  font-weight: 500;
 }
-.oportunidades-emp p{
-    color: #e40f1c;
+
+/* Caso queira uma cor específica para cada seção */
+.oportunidades p {
+  color: #FAB518;
 }
+
+.editais p {
+  color: #009038;
+}
+
+.ecossistemas p {
+  color: #0082c4;
+}
+
+.empregos p {
+  color: #fff; /* Deixe branco para visibilidade sobre fundo vermelho */
+}
+
 /* Força quebra de linha para títulos compostos */
 .linha-quebrada {
   display: block;
