@@ -391,9 +391,7 @@
 }
 
 /* Texto interno */
-.curso p,
-.edital p,
-.ecossistema p {
+.container p {
   font-size: 17px;
   line-height: 1.2;
   font-weight: 500;
