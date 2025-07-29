@@ -349,7 +349,6 @@
   background-color: #0082c4;
 }
 
-/* Título interno (Cursos, Editais, Ecossistemas) */
 .titulo-cursos {
   color: #fff;
   font-family: 'Ubuntu', sans-serif;
@@ -369,61 +368,44 @@
   gap: 15px;
 }
 
-/* Caixas internas */
-.curso,
-.edital,
-.ecossistema {
+.curso, .edital, .ecossistema {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
   display: flex;
   align-items: center;
-  gap: 15px;
-  background-color: #fff;
-  border-radius: 12px;
-  padding: 10px 15px;
-  transition: 0.3s ease;
+  gap: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Hover nas caixas internas */
-.curso:hover,
-.edital:hover,
-.ecossistema:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Ícones */
-.curso img,
-.edital img,
-.ecossistema img {
-  width: 40px;
-  height: 40px;
-}
-
-/* Textos */
-.curso p {
-  color: #FAB518;
-  font-size: 16px;
-  font-weight: 600;
-}
-.edital p {
-  color: #009038;
-  font-size: 16px;
-  font-weight: 600;
-}
+/* Texto interno */
+.curso p,
+.edital p,
 .ecossistema p {
-  color: #0082c4;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 500;
+  margin: 0;
+  color: inherit;
 }
 
-/* Quebra de linha forçada */
+/* Força quebra de linha para títulos compostos */
 .linha-quebrada {
   display: block;
 }
 
-/* Efeito hover */
+.curso img,
+.edital img,
+.ecossistema img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
 .curso:hover,
 .edital:hover,
-.ecossistema:hover{
+.ecossistema:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
