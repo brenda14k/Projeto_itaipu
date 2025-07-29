@@ -329,82 +329,80 @@
   margin-left: 0px;
   font-weight: 900;
 }
+/* Container principal de Oportunidades, Editais, Ecossistemas, Empregos */
 .oportunidades-container {
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  margin-bottom: 60px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 60px;
 }
 
 .oportunidades,
 .editais,
 .ecossistemas,
-.empregos{
-  width: 308px;
-  height: 389px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  border-radius: 15px;
+.empregos {
+    width: 308px;
+    height: 389px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
 }
 
 .oportunidades {
-  background-color: #FAB518;
-     border-radius:15px;
+    background-color: #FAB518;
+    border-radius: 15px;
 }
 
 .editais {
-  background-color: #009038;
-     border-radius:15px;
+    background-color: #009038;
+    border-radius: 15px;
 }
 
 .ecossistemas {
-  background-color: #0082c4;
-     border-radius:15px;
+    background-color: #0082c4;
+    border-radius: 15px;
 }
 
 .empregos {
-  background-color: #e40f1c;
-     border-radius:15px;
+    background-color: #e40f1c;  
+    border-radius: 15px;
 }
 
-
-
-/* Grupos internos */
-.curso, .edital, .ecossistema,emprego {
-  width: 273px;
-  height: 56px;
-  background-color: #fff;
-  padding: 15px;
-  border-radius: 25px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+/* Estilo dos itens dentro das caixas (como cursos, editais, ecossistemas, empregos) */
+.curso, .edital, .ecossistema, .emprego { 
+    width: 273px;
+    height: 56px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .cursos,
 .lista-editais,
 .lista-eco,
-.oportunidades-emp{
- 
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+.oportunidades-emp { 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-/* Títulos dentro das caixas */
+/* Títulos dentro de cada caixa (como Oportunidades, Editais, Ecossistemas, Empregos) */
 .oportunidades h2,
 .editais h2,
 .ecossistemas h2,
 .empregos h2 {
-  color: #fff; /* Cor do título dentro de cada caixa */
-  font-weight: 700;
-  font-size: 22px;
+    color: #fff; 
+    font-weight: 700;
+    font-size: 22px;
 }
 
 /* Texto dentro dos itens */
@@ -412,49 +410,61 @@
 .editais p,
 .ecossistemas p,
 .empregos p {
-     font-family: 'Ubuntu', sans-serif;
-
-  color: #fff;  /* Cor do texto dentro das caixas */
-  font-size: 16px;
-  font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
 }
 
-/* Caso queira uma cor específica para cada seção */
 .oportunidades p {
-  color: #FAB518;
+    color: #FAB518;
 }
 
 .editais p {
-  color: #009038;
+    color: #009038;
 }
 
 .ecossistemas p {
-  color: #0082c4;
+    color: #0082c4;
 }
 
 .empregos p {
-  color: #fff; /* Deixe branco para visibilidade sobre fundo vermelho */
+    color: #fff; 
 }
 
-/* Força quebra de linha para títulos compostos */
+/* Estilo para os títulos principais de cada seção (como Oportunidades, Editais, Ecossistemas, Empregos) */
+.titulo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: #003c6a;
+    text-align: left;  /* Alinha o título à esquerda */
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    font-weight: 900;
+}
+
+/* Caso queira uma quebra de linha dentro dos títulos */
 .linha-quebrada {
-  display: block;
+    display: block;
 }
 
+/* Estilos para as imagens dentro dos itens */
 .curso img,
 .edital img,
 .ecossistema img,
-.oportunidades img{
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
-    
+.emprego img { 
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
 }
 
+/* Efeito de hover nas caixas de Oportunidades, Editais, Ecossistemas e Empregos */
 .curso:hover,
 .edital:hover,
 .ecossistema:hover,
-.emprego:hover{
-  transform: scale(1.05);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+.emprego:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
+
