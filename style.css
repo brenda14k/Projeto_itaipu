@@ -342,7 +342,7 @@
 .ecossistemas {
   width: 308px;
   min-height: 389px;
-  border-radius: 50px;
+  border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   display: flex;
@@ -374,6 +374,7 @@
 .cursos,
 .lista-editais,
 .lista-eco {
+ 
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -382,7 +383,7 @@
 .curso, .edital, .ecossistema {
   background-color: #fff;
   padding: 15px;
-  border-radius: 25px;
+  border-radius: 15px;
   display: flex;
   align-items: center;
   gap: 10px;
