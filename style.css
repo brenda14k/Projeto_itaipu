@@ -317,32 +317,14 @@ px
  
 }
 
+/* Container principal das oportunidades */
 .oportunidades-container {
   display: flex;
-  flex-direction: column;
-  gap: 30px;
+  gap: 30px; /* Espaço entre a caixa amarela e a verde */
   margin-bottom: 60px;
 }
 
-.titulo  {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 30px;
-  color: #1C2D69;
-  text-align: left;  /* Alinhando o título à esquerda */
-  margin-top: 60px;
-  margin-bottom: 20px;
-  margin-left: 0px;
-  font-weight: 900;
-}
-
-/* Linha horizontal para colocar Oportunidades e Editais lado a lado */
-.oportunidades-container > div {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-/* Estilo geral das caixas principais (amarela e verde) */
+/* Estilo das caixas principais */
 .oportunidades,
 .editais {
   width: 311px;
@@ -351,24 +333,23 @@ px
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   display: flex;
-  flex-direction: column; /* ou flex-wrap */
-  gap: 10px;
+  flex-direction: column;
+  gap: 20px; /* Espaçamento entre o título e as caixas brancas internas */
 }
 
-/* Títulos dentro das caixas */
+/* Título "Cursos" ou "Editais" dentro de cada caixa */
 .oportunidades .titulo-cursos,
 .editais .titulo-cursos {
-  width: 100%; /* ocupa linha toda acima das caixas */
+  width: 100%;
   color: #fff;
   font-family: 'Ubuntu', sans-serif;
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 20px;
   padding-left: 20px;
 }
 
-/* Cor específica de cada caixa */
+/* Cor de fundo das caixas principais */
 .oportunidades {
   background-color: #FAB518;
 }
@@ -380,21 +361,19 @@ px
 /* Caixas brancas internas */
 .curso,
 .edital {
-   font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   display: flex;
-  align-items: center; /* Alinha a imagem e o texto verticalmente */
+  align-items: center;
   background-color: #fff;
-  padding: 0 20px; /* Ajuste para garantir que a imagem fique colada na borda */
-  border-radius: 40px; /* Aumento no arredondamento */
+  padding: 0 20px;
+  border-radius: 40px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 269px;  /* Largura completa da caixa de oportunidade */
-  height: 60px;  /* Ajustando a altura da caixa branca para se alinhar com a imagem */
-  margin-bottom: 10px; /* Espaço entre as caixas brancas */
+  width: 269px;
+  height: 60px;
+  font-weight: bold;
+  gap: 10px;
+  margin-bottom: 20px; /* Espaçamento uniforme entre as caixas brancas */
   transition: all 0.3s ease;
-  font-weight: bold; /* Texto mais grosso */
-  justify-content: flex-start; /* Alinhando o conteúdo à esquerda */
-  align-items: center; /* Alinhamento vertical */
-  gap: 10px; /* Ajuste do espaço entre a imagem e o texto */
 }
 
 /* Imagens dentro das caixas */
@@ -406,26 +385,28 @@ px
   padding: 0;
 }
 
-/* Texto dentro das caixas brancas */
+/* Texto nas caixas brancas */
 .curso p {
   color: #FAB518;
   font-size: 17px;
-  margin: 0;
   line-height: 1.2;
+  margin: 0;
 }
 
 .edital p {
   color: #009038;
   font-size: 17px;
-  margin: 0;
   line-height: 1.2;
+  margin: 0;
 }
 
+/* Efeito hover */
 .curso:hover,
 .edital:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
+
 
 
 .curso:hover,
