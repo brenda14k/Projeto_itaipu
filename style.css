@@ -219,7 +219,6 @@
 
 }
 
-px
     
 .titulo{
     padding:5px;
@@ -317,14 +316,24 @@ px
  
 }
 
-/* Container principal das oportunidades */
+/*  oportunidades */
 .oportunidades-container {
   display: flex;
   gap: 30px; /* Espaço entre a caixa amarela e a verde */
   margin-bottom: 60px;
 }
 
-/* Estilo das caixas principais */
+titulo-op  {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+            color: #003c6a;
+  text-align: left;  /* Alinhando o título à esquerda */
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  font-weight: 900;
+}
+
 .oportunidades,
 .editais {
   width: 311px;
@@ -337,7 +346,7 @@ px
   gap: 20px; /* Espaçamento entre o título e as caixas brancas internas */
 }
 
-/* Título "Cursos" ou "Editais" dentro de cada caixa */
+
 .oportunidades .titulo-cursos,
 .editais .titulo-cursos {
   width: 100%;
@@ -349,7 +358,7 @@ px
   padding-left: 20px;
 }
 
-/* Cor de fundo das caixas principais */
+
 .oportunidades {
   background-color: #FAB518;
 }
@@ -358,7 +367,6 @@ px
   background-color: #009038;
 }
 
-/* Caixas brancas internas */
 .curso,
 .edital {
   font-family: 'Ubuntu', sans-serif;
@@ -376,7 +384,7 @@ px
   transition: all 0.3s ease;
 }
 
-/* Imagens dentro das caixas */
+
 .curso img,
 .edital img {
   width: 50px;
