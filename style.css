@@ -323,7 +323,7 @@
 .oportunidades-container {
     display: flex;
     gap: 30px;
-    flex-wrap: wrap;  /* Permite que as caixas quebrem para a linha seguinte se necessário */
+  /*  flex-wrap: wrap;  /* Permite que as caixas quebrem para a linha seguinte se necessário */*/
     justify-content: flex-start;  /* Garante que os itens fiquem no começo da linha */
     margin-bottom: 60px;
     align-items: flex-start;  /* Alinha as caixas no topo */
