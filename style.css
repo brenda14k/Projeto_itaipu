@@ -325,7 +325,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;  /* Garante que os itens fiquem no começo da linha */
     margin-bottom: 60px;
-    align-items: stretch;  /* Garante que as caixas ocupem a mesma altura */
+    align-items: flex-start;  /* Garante que as caixas ocupem a mesma altura */
     width: 100%;
 }
 .titulo{
@@ -334,7 +334,7 @@
     color:#003c6a;
     text-align:left;
     margin-top:60px;
-    margun-left:0px;
+    margin-left:0px;
     font-weight:900;
 }
 
