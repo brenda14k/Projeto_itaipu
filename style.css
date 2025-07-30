@@ -319,38 +319,43 @@
 
 /* Oportunidades */
 
+/* Oportunidades - Container */
 .oportunidades-container {
     display: flex;
     gap: 30px;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  /* Permite que as caixas quebrem para a linha seguinte se necessário */
     justify-content: flex-start;  /* Garante que os itens fiquem no começo da linha */
     margin-bottom: 60px;
-    align-items: flex-start;  /* Garante que as caixas ocupem a mesma altura */
-    width: 100%;
-}
-.titulo{
-     font-family: 'Ubuntu', sans-serif;
-  font-size: 30px;
-    color:#003c6a;
-    text-align:left;
-    margin-top:60px;
-    margin-left:0px;
-    font-weight:900;
+    align-items: flex-start;  /* Alinha as caixas no topo */
+    width: 100%;  /* Assegura que o contêiner ocupe toda a largura disponível */
 }
 
+/* Título */
+.titulo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: #003c6a;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 0px; /* Corrigido "margun-left" para "margin-left" */
+    font-weight: 900;
+}
+
+/* Caixa de Oportunidades, Editais, Ecossistemas, Empregos */
 .oportunidades,
 .editais,
 .ecossistemas,
 .empregos {
-    width: 308px;
-    height: 389px;
+    width: 308px; /* Largura fixa para cada caixa */
+    height: 389px; /* Altura fixa para garantir que as caixas não encolham */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     border-radius: 15px; /* Bordas arredondadas */
-     flex-shrink: 0;  /* Impede que as caixas encolham */
+    flex-shrink: 0;  /* Impede que as caixas encolham */
+    box-sizing: border-box; /* Inclui padding na largura e altura */
 }
 
 /* Cores e estilos de fundo para cada seção */
@@ -384,6 +389,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Alinhamento vertical e responsividade para a lista de itens */
 .cursos,
 .lista-editais,
 .lista-eco,
@@ -393,14 +399,14 @@
     gap: 15px;
 }
 
-/* Títulos dentro de cada caixa (como Oportunidades, Editais, Ecossistemas, Empregos) */
+/* Títulos dentro de cada caixa */
 .oportunidades h2,
 .editais h2,
 .ecossistemas h2,
 .empregos h2 {
-     font-family: 'Ubuntu', sans-serif;
-  font-size: 30px;
-    color: #fff; 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: #fff;
     font-weight: 800;
     font-size: 30px;
 }
@@ -432,8 +438,6 @@
     color: #e40f1c; 
 }
 
-
-
 /* Caso queira uma quebra de linha dentro dos títulos */
 .linha-quebrada {
     display: block;
@@ -457,4 +461,5 @@
     transform: scale(1.05);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
+
 
