@@ -320,12 +320,13 @@
 /* Oportunidades */
 
 .oportunidades-container {
-   display: flex;
+    display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: flex-start;  /* Garante que os itens fiquem no começo da linha */
     margin-bottom: 60px;
-    align-items: flex-start; /* Garantir que os itens se alinhem no topo */
+    align-items: stretch;  /* Garante que as caixas ocupem a mesma altura */
+    width: 100%;
 }
 .titulo{
      font-family: 'Ubuntu', sans-serif;
@@ -349,6 +350,7 @@
     flex-direction: column;
     gap: 20px;
     border-radius: 15px; /* Bordas arredondadas */
+     flex-shrink: 0;  /* Impede que as caixas encolham */
 }
 
 /* Cores e estilos de fundo para cada seção */
