@@ -318,18 +318,15 @@
 
 
 /* Oportunidades */
-
-/* Oportunidades - Container */
 .oportunidades-container {
     display: flex;
-    gap: 30px;
-  /*  flex-wrap: wrap;  /* Permite que as caixas quebrem para a linha seguinte se necessário */*/
+    gap: 20px;  /* Espaçamento entre as caixas */
+    flex-wrap: wrap;  /* Permite que as caixas quebrem para a linha seguinte */
     justify-content: flex-start;  /* Garante que os itens fiquem no começo da linha */
     margin-bottom: 60px;
     align-items: flex-start;  /* Alinha as caixas no topo */
     width: 100%;  /* Assegura que o contêiner ocupe toda a largura disponível */
 }
-
 /* Título */
 .titulo {
     font-family: 'Ubuntu', sans-serif;
@@ -337,25 +334,23 @@
     color: #003c6a;
     text-align: left;
     margin-top: 60px;
-    margin-left: 0px; /* Corrigido "margun-left" para "margin-left" */
+    margin-left: 0px; 
     font-weight: 900;
 }
-
-/* Caixa de Oportunidades, Editais, Ecossistemas, Empregos */
 .oportunidades,
 .editais,
 .ecossistemas,
 .empregos {
-    width: 308px; /* Largura fixa para cada caixa */
-    height: 389px; /* Altura fixa para garantir que as caixas não encolham */
+    flex: 1 1 23%;  /* Faz com que as caixas ocupem 23% da largura e se ajustem se necessário */
+    max-width: 23%;  /* Limita a largura para 23% */
+    height: 389px;  /* Altura fixa para as caixas */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border-radius: 15px; /* Bordas arredondadas */
-    flex-shrink: 0;  /* Impede que as caixas encolham */
-    box-sizing: border-box; /* Inclui padding na largura e altura */
+    border-radius: 15px;
+    box-sizing: border-box;
 }
 
 /* Cores e estilos de fundo para cada seção */
@@ -374,6 +369,7 @@
 .empregos {
     background-color: #e40f1c;
 }
+
 
 /* Estilo dos itens dentro das caixas (como cursos, editais, ecossistemas, empregos) */
 .curso, .edital, .ecossistema, .emprego { 
