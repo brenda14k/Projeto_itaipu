@@ -320,11 +320,12 @@
 /* Oportunidades */
 
 .oportunidades-container {
-    display: flex;
+   display: flex;
     gap: 30px;
     flex-wrap: wrap;
     justify-content: flex-start;
     margin-bottom: 60px;
+    align-items: flex-start; /* Garantir que os itens se alinhem no topo */
 }
 .titulo{
      font-family: 'Ubuntu', sans-serif;
