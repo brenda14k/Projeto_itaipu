@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
@@ -67,7 +66,7 @@
     transition: all 0.3s ease;
 }
 
-.menu-cabecalho a{
+.menu-cabecalho a {
     text-decoration: none;
 }
 
@@ -84,13 +83,13 @@
     background-image: linear-gradient(180deg, #fff 0%, #e4e4e4 100%);
 }
 
-    .menu ul {
-        height: 100%;
-        list-style: none;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
+.menu ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .menu a {
     text-decoration: none;
@@ -119,214 +118,172 @@
     background-image: linear-gradient(180deg, #00315e 0%, #000825 100%);
 }
 
-    .noticias-competencias .titulo {
-        color: #fff;
-        font-size: 30px;
-        margin-bottom: 10px;
-    }
+.noticias-competencias .titulo {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
 
 .noticias {
     display: flex;
     gap: 20px;
 }
 
-    .noticias .noticia {
-        flex: 1 1 25%;
-        background-color: #fff;
-        
-        border-radius: 20px;
-        overflow: hidden;
+.noticias .noticia {
+    flex: 1 1 25%;
+    background-color: #fff;
 
-    }
+    border-radius: 20px;
+    overflow: hidden;
 
-    .noticia .imagem {
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-    }
+}
+
+.noticia .imagem {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
 
-        .noticia .imagem img {
-            width: 100%;
-            transition: all 0.5s ease;
-        }
+.noticia .imagem img {
+    width: 100%;
+    transition: all 0.5s ease;
+}
 
-        .noticia .imagem:hover img {
-            scale: 1.15;
-        } 
+.noticia .imagem:hover img {
+    scale: 1.15;
+}
 
-        .noticia .data {
-            width: 100%;
-            background-color: #00315EBD;
-            color: #50C4FF;
-            padding: 8px 0;
-            font-style: italic;
-            text-align: center;
+.noticia .data {
+    width: 100%;
+    background-color: #00315EBD;
+    color: #50C4FF;
+    padding: 8px 0;
+    font-style: italic;
+    text-align: center;
 
-            position: absolute;
-            z-index: 1;
+    position: absolute;
+    z-index: 1;
 
-            bottom: 0;
-            transition: all 0.5s ease;
-        }
+    bottom: 0;
+    transition: all 0.5s ease;
+}
 
-        .noticia .imagem:hover .data {
-            bottom: -35px;
-        }
+.noticia .imagem:hover .data {
+    bottom: -35px;
+}
 
-    
-    .noticia .post {
-        padding: 20px;
-    }
 
-        .noticia .post p {
-            font-size: 17px;
-            font-weight: 200;
-            line-height: 22px;
-            color: #003c6a;
-        }
+.noticia .post {
+    padding: 20px;
+}
 
-    .noticia .botao {
-        padding: 20px;
-        display: flex;
-        justify-content: end;
-    }
+.noticia .post p {
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 22px;
+    color: #003c6a;
+}
 
-        .noticia .botao a{
-            text-decoration: none;
-            font-style: italic;
-            background-color: #ebebeb;
-            color: #0082c4;
-            padding: 4px 15px;
-            border-radius: 25px;
-        }
+.noticia .botao {
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+}
 
-         .noticia .botao a:hover {
-            background-color: #0082c4;
-            color: #ebebeb;
-        }
+.noticia .botao a {
+    text-decoration: none;
+    font-style: italic;
+    background-color: #ebebeb;
+    color: #0082c4;
+    padding: 4px 15px;
+    border-radius: 25px;
+}
 
-        .botao_final a {
-          display: block;
-    margin-top: 20px; /* aumenta ou ajusta conforme necessidade */
-    margin-bottom: 40px; /* espaço entre "veja todas" e competências */
+.noticia .botao a:hover {
+    background-color: #0082c4;
+    color: #ebebeb;
+}
+
+.botao_final a {
+    display: block;
+    margin-top: 20px;
+    /* aumenta ou ajusta conforme necessidade */
+    margin-bottom: 40px;
+    /* espaço entre "veja todas" e competências */
     text-align: right;
     color: white;
-    text-decoration: none;  
-    text-align: right;  /* Alinha o conteúdo à direita */
-    margin-top: 20px;   /* Adiciona um espaço acima */
+    text-decoration: none;
+    text-align: right;
+    /* Alinha o conteúdo à direita */
+    margin-top: 20px;
+    /* Adiciona um espaço acima */
 
 
 }
 
-    
-.titulo{
-    padding:5px;
-}
- .competencias {
-    
-        display: flex;
-        gap: 20px;
-        flex-wrap: wrap;
-    }
 
-    .competencias .competencia {
-        flex: 0 1 32%;
-        position: relative;
-    }
-
-    .competencias .competencia  img {
-        border-radius: 15px;
-        width: 100%;
-        width: 416px;
-        height: 295px;
-    }
-    
- 
-    .competencias p {
-  width: 280px;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  color: white;
-  text-transform: uppercase;
-  line-height: 1.2;
-  margin: 0;
-  padding: 0;
-  white-space: normal;
-  z-index: 10;
-  position: absolute;
-}
-.comp_1 {
-  
-  top: 187.5px;
-  left: 84px;
- 
+.titulo {
+    padding: 5px;
 }
 
-.comp_2 {
-  
-  top: 187.5px;
-  left: 180px;
- 
+.competencias {
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.competencias .competencia {
+    flex: 0 1 32%;
+    position: relative;
+}
+
+.competencias .competencia img {
+    border-radius: 15px;
+    width: 100%;
+    width: 416px;
+    height: 295px;
 }
 
 
+.competencias p {
+    width: 280px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding: 0;
+    white-space: normal;
+    z-index: 10;
+    position: absolute;
 
-.comp_3 {
-  
-  top: 187.5px;
-  left: 100px;
+    top: 187.5px;
+    left: calc(50% - 140px);
+
+    text-align: center;
 
 }
-.comp_4 {
-  
-  top: 187.5px;
-  left: 180px;
- 
-}
-.comp_5 {
-  
-  top: 187.5px;
-  left: 135px;
- 
-}
-.comp_6 {
-  
-  top: 187.5px;
-  left: 155px;
- 
-}
-.comp_7 {
-  
-  top: 187.5px;
-  left: 151px;
- 
-}
-.comp_8 {
-  
-  top: 187.5px;
-  left: 140px;
- 
-}
-.comp_9{
-  
-  top: 187.5px;
-  left: 149px;
- 
-}
+
 
 
 /* Oportunidades */
 .oportunidades-container {
     display: flex;
-    gap: 20px;  /* Espaçamento entre as caixas */
-    flex-wrap: wrap;  /* Permite que as caixas quebrem para a linha seguinte */
-    justify-content: flex-start;  /* Garante que os itens fiquem no começo da linha */
+    gap: 20px;
+    /* Espaçamento entre as caixas */
+    flex-wrap: wrap;
+    /* Permite que as caixas quebrem para a linha seguinte */
+    justify-content: flex-start;
+    /* Garante que os itens fiquem no começo da linha */
     margin-bottom: 60px;
-    align-items: flex-start;  /* Alinha as caixas no topo */
-    width: 100%;  /* Assegura que o contêiner ocupe toda a largura disponível */
+    align-items: flex-start;
+    /* Alinha as caixas no topo */
+
 }
+
 /* Título */
 .titulo {
     font-family: 'Ubuntu', sans-serif;
@@ -334,16 +291,20 @@
     color: #003c6a;
     text-align: left;
     margin-top: 60px;
-    margin-left: 0px; 
+    margin-left: 0px;
     font-weight: 900;
 }
+
 .oportunidades,
 .editais,
 .ecossistemas,
 .empregos {
-    flex: 1 1 23%;  /* Faz com que as caixas ocupem 23% da largura e se ajustem se necessário */
-    max-width: 23%;  /* Limita a largura para 23% */
-    height: 389px;  /* Altura fixa para as caixas */
+    flex: 1 1 23%;
+    /* Faz com que as caixas ocupem 23% da largura e se ajustem se necessário */
+    max-width: 23%;
+    /* Limita a largura para 23% */
+    height: 389px;
+    /* Altura fixa para as caixas */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     display: flex;
@@ -372,8 +333,11 @@
 
 
 /* Estilo dos itens dentro das caixas (como cursos, editais, ecossistemas, empregos) */
-.curso, .edital, .ecossistema, .emprego { 
-    width: 273px;
+.curso,
+.edital,
+.ecossistema,
+.emprego {
+    width: 100%;
     height: 56px;
     background-color: #fff;
     padding: 15px;
@@ -389,7 +353,7 @@
 .cursos,
 .lista-editais,
 .lista-eco,
-.oportunidades-emp { 
+.oportunidades-emp {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -431,7 +395,7 @@
 }
 
 .empregos p {
-    color: #e40f1c; 
+    color: #e40f1c;
 }
 
 /* Caso queira uma quebra de linha dentro dos títulos */
@@ -443,7 +407,7 @@
 .curso img,
 .edital img,
 .ecossistema img,
-.emprego img { 
+.emprego img {
     width: 50px;
     height: 50px;
     object-fit: contain;
@@ -458,4 +422,53 @@
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
+/*Rodape*/
 
+.rodape{
+    background-color: #00315e;
+
+   
+}
+.parte_final{
+    position: relative;
+    left: 200px;
+    color: white;
+}
+
+
+
+.parte_final img{
+    margin-top: 80px;
+   border: none;
+    height: 138px;
+    width: 399px;
+    border-radius: 0;
+    box-shadow: none;
+ 
+}
+
+.icones_final ul {
+margin-bottom: 10px;
+ margin-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.icones_final i{
+   
+        color: #00315e;
+     background-color: #0082c4;
+    padding: 5px;
+    border-radius: 50%;
+    
+
+    transition: all 0.3s ease;
+}
+
+.icones_final i:hover{
+    color: #0082c4;
+    background-color: transparent;
+    border: 1px solid #0082c4;
+}
