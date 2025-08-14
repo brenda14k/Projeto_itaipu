@@ -474,5 +474,5 @@ margin-bottom: 10px;
 }
 
 .voltar{
-    text-decoration: underline;
+   scroll-behavior: smooth;
 }
