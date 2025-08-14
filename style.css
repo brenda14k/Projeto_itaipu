@@ -471,8 +471,6 @@ margin-bottom: 10px;
     color: #0082c4;
     background-color: transparent;
     border: 1px solid #0082c4;
-}
-
-.voltar{
+html{
    scroll-behavior: smooth;
 }
