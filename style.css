@@ -472,3 +472,7 @@ margin-bottom: 10px;
     background-color: transparent;
     border: 1px solid #0082c4;
 }
+
+.voltar{
+    text-decoration: underline;
+}
